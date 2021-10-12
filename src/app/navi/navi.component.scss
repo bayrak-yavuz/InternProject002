@@ -1,0 +1,22 @@
+.nav-item{
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: #ffbb00;
+    -webkit-transition: 1s cubic-bezier(0.165, 0.85, 0.45, 1);
+    transition: width 2s linear 1s;
+    transition: 0.5s;
+
+  }
+
+  
+
+  .btn:hover{
+    background-color: #ffbb00;
+    -webkit-transition: 1s cubic-bezier(0.165, 0.85, 0.45, 1);
+    transition: width 2s linear 1s;
+    transition: 0.5s;
+
+  
+  }
