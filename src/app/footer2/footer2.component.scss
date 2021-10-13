@@ -1,7 +1,27 @@
 //alperen
 .footer {
-background: #2d3748;    
+background: #2d3748; 
+padding: 10px;   
 }
+
 .my-text-1{
-    text-decoration-color: #3161a1;
+    margin-top: 15px;
+    opacity: .5;
+    text-decoration:none;
+    margin-left: 100px;
+    &:hover {
+        opacity: 1;
+    }
 }
+
+.my-text-2{
+    margin-top: 15px;
+    opacity: .5;
+    text-decoration:none;
+    margin-left: 305px;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+

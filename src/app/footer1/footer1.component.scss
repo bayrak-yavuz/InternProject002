@@ -20,3 +20,13 @@ p.text{
     background-color: #4a5568;
     background-color: rgba(74,85,104,var(--bg-opacity));
 }
+.container{
+    margin-left: 175px;
+}
+.card{
+    border: 0;
+}
+svg.icon{
+   white-space: nowrap;
+   display: inline block;
+}
