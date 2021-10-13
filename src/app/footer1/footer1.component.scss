@@ -1,6 +1,3 @@
-div.card-body{
-    background-color: rgb(92, 90, 90);
-}
 
 div.col{
     text-align:left;
@@ -16,4 +13,10 @@ p.baslik{
 }
 p.text{
     color: rgb(214, 211, 211);
+}
+
+.bg-gray-700 {
+    --bg-opacity: 1;
+    background-color: #4a5568;
+    background-color: rgba(74,85,104,var(--bg-opacity));
 }
