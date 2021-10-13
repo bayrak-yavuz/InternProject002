@@ -1,0 +1,189 @@
+element.style {
+    transform: scaleX(-1);
+}
+.w-3 {
+    width: .75rem;
+}
+.mr-2 {
+    margin-right: .5rem;
+}
+.h-3 {
+    height: .75rem;
+}
+.inline-block {
+    display: inline-block;
+}
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+kullanıcı aracısı stil sayfası
+svg:not(:root) {
+    overflow: hidden;
+}
+a, li {
+    display: inline-block;
+    white-space: nowrap;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+kullanıcı aracısı stil sayfası
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+@media (min-width: 1024px){
+
+}
+.lg\:border-b-0 {
+    border-bottom-width: 0;
+}
+.w-full {
+    width: 100%;
+}
+.border-b {
+    border-bottom-width: 1px;
+}
+a, li {
+    display: inline-block;
+    white-space: nowrap;
+}
+kullanıcı aracısı stil sayfası
+li {
+    display: none;
+    text-align: -webkit-match-parent;
+}
+.text-sm {
+    font-size: .875rem;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.font-poppins {
+    font-family: Poppins;
+}
+.flex {
+    display: flex;
+}
+ol, ul {
+    list-style: none;
+    
+}
+ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+     
+}
+.text-gray-800 {
+    --text-opacity: 1;
+    color: #2d3748;
+    color: rgba(45,55,72,var(--text-opacity));
+}
+fieldset, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+.text-gray-800 {
+    --text-opacity: 1;
+    color: #2d3748;
+    color: rgba(45,55,72,var(--text-opacity));
+}
+
+.bg-gray-200 {
+    --bg-opacity: 1;
+    background-color: #edf2f7;
+    background-color: rgba(237,242,247,var(--bg-opacity));
+}
+@media (min-width: 1024px){}
+body {
+    font-size: 1rem;
+}
+@media (min-width: 768px){}
+body {
+    font-size: .875rem;
+}
+@media (min-width: 640px){}
+body {
+    font-size: .75rem;
+}
+body {
+    --bg-opacity: 1;
+    background-color: #f7fafc;
+    background-color: rgba(247,250,252,var(--bg-opacity));
+    font-family: Rubik;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+        font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        line-height: 1.5;
+}
+
+ html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+    }
+ 
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+.w-6 {
+    width: 1.5rem;
+}
+.py-3 {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.h-full{
+    height: 100%;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+a, li {
+    display: inline-block;
+    white-space: nowrap;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+a {
+    background-color: transparent;
+}
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+kullanıcı aracısı stil sayfası
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+li:hover{
+    background-color: white;
+}
