@@ -1,15 +1,21 @@
 p.baslik{
     font-size: xx-large;
     font-weight: bolder;
-    margin-top:80px;
+    margin-top:130px;
 }
 span.eniyi{
     font-weight: bolder;
 }
 .btn{
     border-radius:  40px;
+    opacity: 0.7;
 }
-div.container{
+.container-fluid{
+    
+    
+    background-color:rgba(247,250,252);
+}
+.col{
     margin-top:50px;
     margin-bottom:100px;
 }
