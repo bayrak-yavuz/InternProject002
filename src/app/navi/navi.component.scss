@@ -16,6 +16,19 @@
   animation-timing-function: ease-out;
 
   }
+  @media screen and (min-width: 960px) {
+    .btn.btn-warning{
+      display: none;
+    }
+    .btn.btn-success.btn-hidden-lg{
+      display: none;
+    }
+    // .navbar.navbar-expand-lg.navbar-light {
+    //  position: fixed;
+
+    //  width: 100%
+    //   }
+  }
 
   .btn{
     border-radius:  40px;
