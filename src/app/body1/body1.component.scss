@@ -1,5 +1,22 @@
 // alperen
-div.title{
-    font-size: 1024000px;
-
+.body-1 {
+    width: 100%; 
+max-width:2500px;
+min-height: 520px;
+ background-image: url(../../assets/img-body1/hero.webp);
+ background-size: cover;
+ background-position: 50%;
+}
+.my-container {
+    margin: 30px;
+    
+}
+.my-title {
+    font-size: 4rem;
+}
+.my-text {
+    font-size: 1.2rem;
+}
+.my-col {
+    padding: 100px;
 }
