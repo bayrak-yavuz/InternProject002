@@ -1,6 +1,6 @@
 //alperen
 .serve{
-  padding: px;
+  padding: 300px;
 
 }
 .my-container {
@@ -9,10 +9,28 @@ padding-bottom: 50px;
 
 }
 .my-col {
-
+text-align: center;
 }
 .my-hr {
     height: 7px;
     width: 78px;    
-
+    display:inline-block;
+    text-align: center;
+}
+.my-title {
+  margin-top: 20px;
+}
+.btn-1{
+  width: auto;
+  height: 60px;
+  
+  background-color: ffffff;
+  font-size: 1rem;
+  text-align: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  &:hover{
+    background-color:  #f6e05e;
+    transition-delay:100ms;
+  }
 }
