@@ -1,24 +1,39 @@
 .nav-item{
-    transition: 0.5s;
+  font-weight: bolder;
+  opacity: 0.7;
 }
+.btn.btn--light.dropdown-toggle{
+  font-weight: bolder;
+  opacity: 0.7;
+}
+  
 
-.nav-item:hover {
-    background-color: #ffbb00;
-    -webkit-transition: 1s cubic-bezier(0.165, 0.85, 0.45, 1);
-    transition: width 2s linear 1s;
-    transition: 0.5s;
+
+ .nav-item:hover {
+
+  animation-name: animation_berke;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 
   }
 
-  
+  .btn{
+    border-radius:  40px;
+  }
 
   .btn:hover{
-    background-color: #ffbb00;
-    -webkit-transition: 1s cubic-bezier(0.165, 0.85, 0.45, 1);
-    transition: width 2s linear 1s;
-    transition: 0.5s;
+    
+   animation-name:animation_berke;
+   animation-duration: 1s;
+   animation-timing-function:ease-out;
 
   
+  }
+
+  @keyframes animation_berke{
+    from{background-color: transparent;}
+    to{background-color: #ffbb00;}
+    
   }
 
   
