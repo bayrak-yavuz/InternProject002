@@ -9,7 +9,13 @@
     text-align: center;
 }
 .ref-web{
-    background-image: url(../../assets/img-customers/ref-sprite.webp);
+    width: 100%;
+    position: absolute;
+    clip: rect(0,302,89,0);
+
 }
 .ref-1{
+    width:50%;
+    display: inline-block;
+    position: relative;
     transform: translate(-50%, 0%) scale(0.635971);}
