@@ -1,7 +1,8 @@
-div.card-body{
-    background-color: orange;
+.bg-yellow-500 {
+    --bg-opacity: 1;
+    background-color: #ecc94b;
+    background-color: rgba(236,201,75,var(--bg-opacity));
 }
-
 div.col{
     font-weight: bolder;
     font-size: larger;
@@ -10,4 +11,5 @@ div.col{
 
 div.col.btn{
     background-color: white;
+    font-weight: bolder;
 }
