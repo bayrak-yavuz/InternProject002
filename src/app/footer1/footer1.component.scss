@@ -1,5 +1,5 @@
 
-div.col{
+div.col-md-12.col-lg-4 {
     text-align:left;
     
     color: white;
@@ -10,6 +10,7 @@ div.col{
 p.baslik{
     font-weight: bolder;
     font-size: larger;
+    color: white;
 }
 p.text{
     color: rgb(214, 211, 211);
@@ -35,5 +36,14 @@ svg.icon{
     .card-body.bg-gray-700{
         text-align: center;
         color: white;
+    }
+    div.col-md-12.col-lg-4{
+        font-size: small;
+        text-align: center;
+        margin-left:-25%;
+    }
+    p.adres{
+        text-align: center;
+   
     }
 }
