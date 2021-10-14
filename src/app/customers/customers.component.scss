@@ -1,5 +1,5 @@
 //alperen
-.my-col {
+.my-col-1 {
     text-align: center;
     }
 .my-hr {
@@ -9,13 +9,49 @@
     text-align: center;
 }
 .ref-web{
-    width: 100%;
-    position: absolute;
-    clip: rect(0,302,89,0);
+    // object-fit: none;
+    // // position: absolute;
+    // // clip: rect(0,302,89,0);
+    // content: url(../../assets/img-customers/ref-sprite.webp);
+    // transform: scale(scale(0.707914));
 
 }
 .ref-1{
-    width:50%;
-    display: inline-block;
-    position: relative;
-    transform: translate(-50%, 0%) scale(0.635971);}
+    // width: 302px;
+    // height: 89px;
+    // object-fit: cover;
+    // object-position: 302px 89px;
+    // //width:50%;
+    // display: inline-block;
+    // //position: relative;
+    // // transform: translate(-50%, 0%) scale(0.635971);
+}
+.my-row-1{
+    display: flex;
+}
+.my-col{
+    text-align: center;
+}
+.my-img{
+    transform: scale(0.57);
+    filter: grayscale(100%);
+    &:hover{
+        transform: scale(0.67);
+        transition-delay:300ms;
+        filter:grayscale(0%);
+        
+    }
+}
+.my-img-2{
+    transform: scale(0.67);
+    filter: grayscale(100%);
+    &:hover{
+        transform: scale(0.77);
+        transition-delay:300ms;
+        filter:grayscale(0%);
+        
+    }
+}
+.my-row-2{
+    padding-left: 20px
+}
