@@ -30,7 +30,8 @@ import { Footer2Component } from './footer2/footer2.component';
     CustomersComponent,
     Navi3Component,
     Footer1Component,
-    Footer2Component
+    Footer2Component,
+    
   ],
   imports: [
     BrowserModule,

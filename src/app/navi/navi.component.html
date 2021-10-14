@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light " >
+<nav *ngIf="showFirst"  class="navbar navbar-expand-lg navbar-light " >
   <div class="container">
    
     <a class="navbar-brand" href="#"><img src="assets/img-navi/logo-s.png" class="rounded mx-auto d-block" alt="..."></a>
@@ -12,7 +12,7 @@
     </svg> Ara </button>
     
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" (click)="openNav()">
       <span class="navbar-toggler-icon"></span>
     </button>
     
@@ -74,12 +74,34 @@
 
 
 
+<div *ngIf="!showFirst" class="mobile-nav"> 
+
+  <p class="head">Ürünler</p>
+  <p class="text">Netger Avukat,Netger Doktor</p>
+  
+
+  <p class="head">Hizmetler</p>
+  <p class="text">Dijital Pazarlama, Web Tasarım, Sosyal Medya Danışmanlığı, Mobil Uygulama Geliştirme, Fotoğraf ve Video Çekimi</p>
+  
+  <p class="head">Baskı</p>
+  <p class="text">Kartvizit,Broşür,İlan,Antetli Kağıt,Zarf,Kalem,Bayrak</p>
+  
+
+  <p class="head">Referanslar</p>
+
+  <p class="head">Blog</p>
+
+  <p class="head">Kurumsal</p>
+
+  <p class="head">İletişim</p>
+  
+  <p class="text2">Kampanyalar</p>
+  <p class="text2">İnsan Kaynakları</p>
+  <p class="text2">Fatura Ödeme</p>
 
 
 
-<!-- <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Info card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div> -->
+
+<button (click)="openNav()" class="exit">X </button>
+</div>
+  
