@@ -36,6 +36,7 @@
       background-color: white;
       width: 100%;
       top:0;
+      z-index: 999;
        }
        .btn.btn-warning:hover{
         animation:disabled;
@@ -43,6 +44,7 @@
       .btn.btn-success.btn-hidden-lg:hover{
         animation:disabled;
       }
+      
      
   }
 
@@ -103,9 +105,8 @@
     top: 0;
     width: 100px;
     cursor: pointer;
-   
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
+    background-color: white;
+    padding: 30px;
     border-radius: 50%;
   }
   p.text2{
