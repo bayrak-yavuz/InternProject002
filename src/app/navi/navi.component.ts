@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NaviComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit(): void {
+    
+  }
+ 
+  public showFirst:boolean=true;
+  openNav(){
+    this.showFirst=!this.showFirst;
+
   }
 
 }

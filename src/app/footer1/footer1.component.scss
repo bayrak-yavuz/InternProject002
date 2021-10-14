@@ -1,6 +1,6 @@
 
-div.col{
-    text-align:left;
+div.col-md-12.col-lg-3 {
+    
     
     color: white;
     
@@ -10,6 +10,7 @@ div.col{
 p.baslik{
     font-weight: bolder;
     font-size: larger;
+    color: white;
 }
 p.text{
     color: rgb(214, 211, 211);
@@ -29,4 +30,22 @@ p.text{
 svg.icon{
    white-space: nowrap;
    display: inline block;
+}
+
+@media screen and (max-width: 960px) {
+    .card-body.bg-gray-700{
+        text-align: center;
+        color: white;
+    }
+    div.col-md-12.col-lg-3{
+        font-size: small;
+        text-align: center;
+        margin-left:-25%;
+        color:white
+    }
+    p.adres{
+        text-align: center;
+        color:white
+   
+    }
 }

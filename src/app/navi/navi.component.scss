@@ -1,12 +1,15 @@
 .nav-item{
+  // position: relative;
+  // bottom: -20px;
   font-weight: bolder;
   opacity: 0.7;
 }
 .btn.btn--light.dropdown-toggle{
+  // position: relative;
+  // bottom: -20px;
   font-weight: bolder;
   opacity: 0.7;
 }
-  
 
 
  .nav-item:hover {
@@ -17,21 +20,40 @@
 
   }
   @media screen and (min-width: 960px) {
-    .btn.btn-warning{
+    .btn.btn-warning.b2{
       display: none;
+     
     }
     .btn.btn-success.btn-hidden-lg{
       display: none;
     }
-    // .navbar.navbar-expand-lg.navbar-light {
-    //  position: fixed;
-
-    //  width: 100%
-    //   }
+     
   }
+
+  @media screen and (max-width: 960px) {
+    .navbar.navbar-expand-lg.navbar-light {
+      position: fixed;
+      background-color: white;
+      width: 100%;
+      top:0;
+      z-index: 999;
+       }
+       .btn.btn-warning:hover{
+        animation:disabled;
+      }
+      .btn.btn-success.btn-hidden-lg:hover{
+        animation:disabled;
+      }
+      
+     
+  }
+
+ 
 
   .btn{
     border-radius:  40px;
+    // position: relative;
+    // bottom: -20px;
   }
 
   .btn:hover{
@@ -49,4 +71,46 @@
     
   }
 
-  
+  .navbar.navbar-expand-lg.navbar-light{
+    margin-bottom:-1.7%;
+  }
+
+  .mobile-nav{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background-color: orange;
+   
+    
+
+  }
+
+  p.head{
+    margin-left: 7%;
+    margin-top: 4%;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+  }
+  p.text{
+    margin-left: 7%;
+    font-size: small;
+  }
+  button.exit{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width:50px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    border-radius: 500px;
+  }
+  p.text2{
+    margin-left: 7%;
+    font-size: medium;
+
+  }
