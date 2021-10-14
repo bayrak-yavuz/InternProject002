@@ -18,3 +18,25 @@ div.col{
 .card{
     border:0
 }
+
+
+@media screen and (min-width: 960px) {
+    .btn.btn-light.b2{
+        display:none;
+    }
+    p.y2{
+        display: none;
+    }
+     
+  }
+
+  @media screen and (max-width: 960px) {
+    p.y1{
+        display:none;
+    }
+    .btn.btn-light.b1{
+        display: none;
+    } 
+
+     
+  }
