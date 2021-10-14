@@ -33,6 +33,7 @@
     text-align: center;
 }
 .my-img{
+    display: block;
     transform: scale(0.57);
     filter: grayscale(100%);
     &:hover{
@@ -51,6 +52,22 @@
         filter:grayscale(0%);
         
     }
+}
+.my-img-4{
+    display: block;
+    transform: scale(0.57);
+    filter: grayscale(100%);
+    padding-right: 5px;
+    padding-top: 5px;
+    &:hover{
+        transform: scale(0.67);
+        transition-delay:300ms;
+        filter:grayscale(0%);}
+        
+
+}
+.my-row{
+    
 }
 .my-row-2{
     padding-left: 20px
