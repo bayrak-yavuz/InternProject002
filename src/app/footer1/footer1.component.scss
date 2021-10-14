@@ -32,5 +32,8 @@ svg.icon{
 }
 
 @media screen and (max-width: 960px) {
- 
+    .card-body.bg-gray-700{
+        text-align: center;
+        color: white;
+    }
 }
