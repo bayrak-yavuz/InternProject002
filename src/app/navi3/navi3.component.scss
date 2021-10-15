@@ -27,17 +27,29 @@ div.col{
     p.y2{
         display: none;
     }
+    
+    
      
   }
 
   @media screen and (max-width: 960px) {
     p.y1{
         display:none;
+       
     }
     .btn.btn-light.b1{
         display: none;
         text-align: center;
     } 
+    .btn.btn-light.b2{
+        margin-top: 50px;
+    }
+    p.y2{
+        margin-top: -15px;
+    }
+
+    
+    
 
      
   }
