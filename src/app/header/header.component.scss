@@ -104,10 +104,10 @@ ul {
     background-color: #e2e8f0;
     background-color: rgba(226,232,240,var(--bg-opacity));
 }
-@media (min-width: 1024px)
- {
-    
- }
+@media screen and (max-width: 1098px) {
+    .mr-5 { display: none; 
+    }
+    } 
 body {
     --bg-opacity: 1;
     background-color: #f7fafc;
