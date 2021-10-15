@@ -9,6 +9,7 @@ min-height: 520px;
 }
 .my-container {
     margin: 30px;
+  //  z-index: +9999;
     
 }
 .my-title {
@@ -18,5 +19,9 @@ min-height: 520px;
     font-size: 1.2rem;
 }
 .my-col {
-    padding: 180px;
+padding: 180px;
+ //text-align: center;
+}
+.customers {
+    flex-wrap:wrap
 }
