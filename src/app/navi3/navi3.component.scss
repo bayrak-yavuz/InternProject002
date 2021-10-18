@@ -49,7 +49,23 @@ div.col{
     }
 
     
-    
+    @media screen and (max-width: 320px) {
+        p.y1{
+            display:none;
+           
+        }
+        .btn.btn-light.b1{
+            display: none;
+                    } 
+        .btn.btn-light.b2{
+            margin-top: 50px;
+            display: none;
+        }
+        p.y2{
+            display: none;
+            margin-top: -15px;
+        }
 
      
   }
+}

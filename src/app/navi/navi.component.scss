@@ -34,7 +34,7 @@
     .navbar.navbar-expand-lg.navbar-light {
       position: fixed;
       background-color: white;
-      width: 100%;
+      
       top:0;
       z-index: 999;
        }
@@ -44,10 +44,19 @@
       .btn.btn-success.btn-hidden-lg:hover{
         animation:disabled;
       }
+      .btn.btn-success.btn-hidden-lg{
+        display: none;
+      }
+       
      
       
      
   }
+
+  
+
+
+
   div.buttons{
     text-align: center;
   }
