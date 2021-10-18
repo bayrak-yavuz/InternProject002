@@ -178,8 +178,14 @@ div{
 blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
     margin: 0;
 }
-
-
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+.bg-gray-100 {
+    --bg-opacity: 1;
+     background-color: rgba(247,250,252,var(--bg-opacity));
+}
 h3 {
     display: block;
     margin-block-start: 1em;
@@ -241,7 +247,7 @@ img {
 } 
  
  .relative:hover{
-border-radius: 35px;  
+border-radius: 15px;  
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
 
  }
@@ -259,16 +265,10 @@ border-radius: 35px;
 }}
 @media  screen and (max-width: 980px) {
     .relative {
-        display: unset;
-        box-shadow: 0 0 1px rgba(33,33,33,.2); 
-
-      }
+    display:unset;     
+    }
      
  } 
- .bg-gray-100 {
-    --bg-opacity: 1;
-     background-color: rgba(247,250,252,var(--bg-opacity));
-}
-  img:hover{
-      border-radius: 35px;
-  }
+ 
+ 
+ 

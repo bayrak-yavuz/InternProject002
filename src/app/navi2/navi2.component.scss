@@ -12,8 +12,7 @@ element.style {
 .font-poppins {
     font-family: Poppins;
 }
-.flex-col {
- }
+
 .flex {
     display: flex;
 }
@@ -34,8 +33,7 @@ ul {
 
 .bg-gray-200 {
     --bg-opacity: 1;
-     background-color: rgba(237,242,247,var(--bg-opacity));
-}
+ }
 @media (min-width: 1024px){
 .lg\:border-b-0 {
     border-bottom-width: 0;
@@ -61,9 +59,10 @@ li {
     font-size: .875rem;
 }
 .py-3 {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
+
 .h-full {
     height: 100%;
 }
@@ -139,7 +138,6 @@ ul {
 }
 .text-gray-800 {
     --text-opacity: 1;
-     color: rgba(45,55,72,var(--text-opacity));
 }
 .bg-gray-200 {
     --bg-opacity: 1;
@@ -173,20 +171,15 @@ html {
     border: 0 solid #e2e8f0;
 }
 li:hover{
-    background-color: white;
+    background-color:rgb(250, 248, 248);
 }
 svg{
     margin: 5px;
 
 }
 @media  screen and (max-width: 1098px) {
-     ul{
-       display: flex;  
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       box-sizing: border-box;
-       border: 20px;
-      
-  } 
+    .flex-col {
+        flex-direction: column;
+     }
+    
     } 
