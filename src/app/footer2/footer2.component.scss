@@ -1,27 +1,44 @@
 //alperen
 .footer {
 background: #2d3748; 
-padding: 10px;   
+// padding: 10px;   
 }
 
 .my-text-1{
-    margin-top: 15px;
+    // margin-top: 15px;
     opacity: .5;
     text-decoration:none;
-    margin-left: 100px;
+    // margin-left: 100px;
     &:hover {
+        transition-duration: 300ms;
         opacity: 1;
     }
 }
 
 .my-text-2{
-    margin-top: 15px;
+    // margin-top: 15px;
     opacity: .5;
     text-decoration:none;
-    margin-left: 305px;
+    // margin-left: 305px;
     &:hover {
         opacity: 1;
     }
 }
+@media screen and (min-width:768px) {
+    .my-row{
+        text-align: end;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .my-row{
+        text-align: center;
+    }
+}
 
+@media screen and (max-width:320px) {
+.my-row{
+    text-align: center;
+}
 
+}
