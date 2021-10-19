@@ -19,22 +19,13 @@
   animation-timing-function: ease-out;
 
   }
-  @media screen and (min-width: 1024px) {
-    .btn.btn-warning.b2{
-      display: none;
-     
-    }
-    .btn.btn-success.btn-hidden-lg{
-      display: none;
-    }
-     
-  }
+  
 
   @media screen and (max-width: 768px) {
     .navbar.navbar-expand-xl.navbar-light {
       position: fixed;
       background-color: white;
-      width: 768px;
+      width: 100%;
       top:0;
       z-index: 999;
        }
@@ -52,11 +43,31 @@
   }
   
 
-  @media screen and (max-width: 320px) {
+  
+  @media screen  and  (max-width: 605px)
+  {
     .navbar.navbar-expand-xl.navbar-light {
       position: fixed;
       background-color: white;
-      width: 320px;
+      width:100%;
+      top:0;
+      z-index: 999;
+       }
+    .btn.btn-warning.b2{
+      display: none;
+      
+    }
+    .btn.btn-success.btn-hidden-lg{
+      display: none;
+    }
+    
+  }
+
+    @media screen and (max-width: 320px) {
+    .navbar.navbar-expand-xl.navbar-light {
+      position: fixed;
+      background-color: white;
+      width: 100%;
       top:0;
       z-index: 999;
        }
