@@ -1,11 +1,11 @@
 //alperen
-.serve{
-  padding: 300px;
+// .serve{
+//   padding: 300px;
 
-}
+// }
 .my-container {
-padding-top: 50px;
-padding-bottom: 50px;
+// padding-top: 50px;
+// padding-bottom: 50px;
 
 }
 .my-col {
@@ -18,7 +18,7 @@ text-align: center;
     text-align: center;
 }
 .my-title {
-  margin-top: 20px;
+  // margin-top: 20px;
   font-weight: 700;
 }
 .btn-1{
@@ -41,6 +41,12 @@ text-align: center;
     transition-delay:100ms;
   }
 }
-@media screen and (max-width:320px) {
- 
+@media screen and(max-width:320px) {
+  .my-title{
+    font-size: 1.5rem;
+  }
+  .my-text{
+    font-size: .875rem;
+  }
+  
 }
