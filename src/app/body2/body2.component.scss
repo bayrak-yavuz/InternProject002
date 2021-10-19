@@ -20,15 +20,18 @@ span.eniyi{
     margin-top:10px;
     margin-bottom:100px;
 }
-@media screen and (max-width: 960px)
+@media screen and (max-width: 1024px)
 {
     p.baslik{
         margin-top: -30px;
     }
     .col{
-        text-align: center;
+        text-align: left;
     }
-
+    .col{
+        position: relative;
+        top: 100px;
+    }
     img{
         
         max-width: 100%;
@@ -39,4 +42,31 @@ span.eniyi{
 
 
 }
+
+@media screen and (max-width: 320px)
+{
+    p.baslik{
+        margin-top: -30px;
+    }
+    .col{
+        text-align: center;
+    }
+    .col{
+        position: relative;
+        top: 100px;
+    }
+    img{
+        
+        max-width: 100%;
+        height: auto;   
+
+    }
+   
+
+
+}
+
+
+
+
 
