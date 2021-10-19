@@ -9,11 +9,11 @@ min-height: 520px;
 }
 .my-container {
     margin: 30px;
-  //  z-index: +9999;
-    
+    text-align: center;
+  //  z-index: +9999;   
 }
 .my-title {
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 .my-text {
@@ -22,7 +22,7 @@ min-height: 520px;
 }
 .my-col {
 //padding: 180px;
-margin-top: 13%;
+//margin-top: 13%;
 // margin-bottom:2rem;
  text-align: center;
 }
@@ -30,29 +30,31 @@ margin-top: 13%;
     flex-wrap:wrap
 }
 .myrow{
-    text-align: center;
-    align-items: center;
+    // text-align: center;
+    // align-items: center;
 }
-@media screen and (max-width:320px) {
-    .my-col{
-        margin-top: 60%;
-    }
-    .my-title{
-        font-size: 1.875rem;
-    }
-    .my-text{
-        font-size: 0.875rem;
-    }
-}
-@media screen and (max-width:768px){
-    .my-col{
-        margin-top: 40%;
-    }
-    .my-title{
-        font-size: 1.875rem;
-    }
-    .my-text{
-        font-size: 0.875rem;
-    }
+
+// @media screen and (min-width:320px) and (max-width:768px) {
+
+//     .my-title{
+//         font-size: 1.875rem;
+//     }
+//     .my-text{
+//         font-size: 0.875rem;
+//     }
+//     .my-container{
+//         text-align: center;
+//     }
+//     .my-col{
+//         text-align: center;
+//     }
+// }
+// @media screen and (max-width:1024){
+//     .my-title{
+//         font-size: 1.875rem;
+//     }
+//     .my-text{
+//         font-size: 0.875rem;
+//     }
     
-}
+// }
