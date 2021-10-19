@@ -20,6 +20,7 @@ div.col{
 }
 
 
+
 @media screen and (min-width: 960px) {
     .btn.btn-light.b2{
         display:none;
@@ -27,6 +28,7 @@ div.col{
     p.y2{
         display: none;
     }
+    
     
     
      
@@ -42,14 +44,38 @@ div.col{
         text-align: center;
     } 
     .btn.btn-light.b2{
-        margin-top: 50px;
+     //  margin-top: 50px;
     }
     p.y2{
-        margin-top: -15px;
+       // margin-top: -15px;
     }
 
     
-    
+   
+}
+@media screen and (max-width: 320px) {
+    p.y1{
+        display:none;
+       
+    }
+    .btn.btn-light.b1{
+        display: none;
+                } 
+     .btn.btn-light.b2{
+         position: relative;
+        right: -30px;
+        top: 60px;
+        font-size: small;
+       
+     }
+     p.y2{
+        font-size: small;
+         position: relative;
+        top:10px;
+        left: 0px;
+     }
+     .col.test{
+         font-size: normal;
+     }
 
-     
-  }
+}
