@@ -136,7 +136,11 @@ html {
 nav{
 margin-left: 600px;
 }
-   
+@media screen and (min-width:320) {
+    .mr-5{
+        display: none;
+    }   
+}
     
      
  
