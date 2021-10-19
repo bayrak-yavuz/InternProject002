@@ -19,21 +19,28 @@ text-align: center;
 }
 .my-title {
   margin-top: 20px;
+  font-weight: 700;
 }
 .btn-1{
   width: auto;
   height: 50px;
+  font-weight: 350;
+
 
   color: gray;
   background-color:white;
   font-size: 1rem;
+
   text-align: center;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  // padding-left: 0.75rem;
+  // padding-right: 0.75rem;
   
 
   &:hover{
     background-color:  #f6e05e;
     transition-delay:100ms;
   }
+}
+@media screen and (max-width:320px) {
+ 
 }
