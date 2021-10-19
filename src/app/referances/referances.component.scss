@@ -5,6 +5,9 @@
 .md\:w-1\/4 {
     width: 25%;
 }
+.shadow {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
 .scale {
     transform: scale(1);
 }
@@ -15,6 +18,7 @@ img, video {
 
 audio, canvas, embed, iframe, img, object, svg, video {
     display: block;
+    vertical-align: middle;
  }
  
 img {
@@ -232,7 +236,7 @@ body {
 @media (min-width: 640px){
 body {
  }}
-b
+
 .text-center {
     text-align: center;
 }
@@ -269,16 +273,9 @@ html {
 .lg\:text-3xl {
     font-size: 1.875rem;
 }}
- @media screen and (max-width: 980px) {
-     .p-3{
-          flex-wrap: wrap;
-     }
-     @media screen and (min-width) {
-         .p-3{
-             display: flex;
-         }
-     }
-     
- }
+ 
+ 
+
+ 
 
  

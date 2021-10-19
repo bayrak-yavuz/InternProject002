@@ -34,6 +34,26 @@ svg.icon{
 
 @media screen and (max-width: 960px) {
     .card-body.bg-gray-700{
+        text-align: left;
+        color: white;
+    }
+    div.col-md-12.col-lg-3{
+        font-size: medium;
+        text-align: center;
+        //margin-left:-25%;
+        color:white
+    }
+    p.adres{
+        text-align: left;
+        color:white
+   
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .card-body.bg-gray-700{
         text-align: center;
         color: white;
     }
