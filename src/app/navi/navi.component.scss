@@ -31,7 +31,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .navbar.navbar-expand-lg.navbar-light {
+    .navbar.navbar-expand-xl.navbar-light {
       position: fixed;
       background-color: white;
       width: 768px;
@@ -44,7 +44,7 @@
       .btn.btn-success.btn-hidden-lg:hover{
         animation:disabled;
       }
-      
+    
        
      
       
@@ -53,22 +53,22 @@
   
 
   @media screen and (max-width: 320px) {
-    .navbar.navbar-expand-lg.navbar-light {
+    .navbar.navbar-expand-xl.navbar-light {
       position: fixed;
       background-color: white;
-      
+      width: 320px;
       top:0;
       z-index: 999;
        }
-       .btn.btn-warning:hover{
-        animation:disabled;
-        position: relative;
-        right: 75px;
+        .btn.btn-warning:hover{
+         animation:disabled;
+         position: relative;
+         right: 75px;
 
-      }
-      .btn.btn-success.btn-hidden-lg:hover{
-        animation:disabled;
-      }
+       }
+       .btn.btn-success.btn-hidden-lg:hover{
+         animation:disabled;
+       }
       .btn.btn-success.btn-hidden-lg{
         display: none;
       }
