@@ -104,8 +104,9 @@ ul {
     background-color: #e2e8f0;
     background-color: rgba(226,232,240,var(--bg-opacity));
 }
-@media screen and (max-width: 1098px) {
-    .mr-5 { display: none; 
+@media screen and (max-width: 1024px) {
+    .top { 
+        display: none; 
     }
     
     } 
@@ -136,11 +137,6 @@ html {
 nav{
 margin-left: 600px;
 }
-@media screen and (min-width:320) {
-    .mr-5{
-        display: none;
-    }   
-}
-    
+  
      
  
