@@ -11,8 +11,6 @@ span.eniyi{
     opacity: 0.7;
 }
 .container-fluid{
-    
-    
     background-color:rgba(247,250,252);
 }
 .col{
@@ -32,17 +30,11 @@ span.eniyi{
         position: relative;
         top: 100px;
     }
-    img{
-        
+    img{  
         max-width: 100%;
-        height: auto;   
-
+        height: auto; 
     }
-   
-
-
 }
-
 @media screen and (max-width: 320px)
 {
     p.baslik{
@@ -59,11 +51,7 @@ span.eniyi{
         
         max-width: 100%;
         height: auto;   
-
     }
-   
-
-
 }
 
 

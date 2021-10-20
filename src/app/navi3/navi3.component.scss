@@ -8,7 +8,6 @@ div.col{
     font-size: larger;
     text-align:center;
 }
-
 .btn{
     
     background-color: white;
@@ -18,45 +17,26 @@ div.col{
 .card{
     border:0
 }
-
-
-
 @media screen and (min-width: 960px) {
     .btn.btn-light.b2{
         display:none;
     }
     p.y2{
         display: none;
-    }
-    
-    
-    
-     
+    }    
   }
-
   @media screen and (max-width: 960px) {
     p.y1{
-        display:none;
-       
+        display:none;    
     }
     .btn.btn-light.b1{
         display: none;
         text-align: center;
     } 
-    .btn.btn-light.b2{
-     //  margin-top: 50px;
-    }
-    p.y2{
-       // margin-top: -15px;
-    }
-
-    
-   
 }
 @media screen and (max-width: 320px) {
     p.y1{
-        display:none;
-       
+        display:none; 
     }
     .btn.btn-light.b1{
         display: none;
@@ -66,7 +46,6 @@ div.col{
         right: -20px;
         top: 10px;
         font-size: small;
-       
      }
      p.y2{
         font-size: small;
@@ -77,5 +56,4 @@ div.col{
      .col.test{
          font-size: small;
      }
-
 }
