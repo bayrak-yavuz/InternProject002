@@ -26,13 +26,27 @@ div.col{
     }    
   }
   @media screen and (max-width: 960px) {
+
+    
     p.y1{
         display:none;    
     }
     .btn.btn-light.b1{
         display: none;
-        text-align: center;
+        
     } 
+    .btn.btn-light.b2{
+        position: relative;
+       right: 20px;
+       top: 40px;
+       font-size: small;
+    }
+    p.y2{
+     
+        position: relative;
+        top:-12px;
+        left: 10px;
+     }
 }
 @media screen and (max-width: 320px) {
     p.y1{
@@ -42,18 +56,20 @@ div.col{
         display: none;
                 } 
      .btn.btn-light.b2{
-         position: relative;
+        
+        position: relative;
         right: -20px;
         top: 10px;
-        font-size: small;
      }
      p.y2{
         font-size: small;
         position: relative;
-        top:0px;
-        left: 10px;
+        
+        
      }
      .col.test{
+         position: relative;
+         bottom: 10px;
          font-size: small;
      }
 }

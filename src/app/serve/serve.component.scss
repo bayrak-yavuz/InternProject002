@@ -21,7 +21,6 @@ text-align: center;
   color: gray;
   background-color:white;
   font-size: 1rem;
-  text-align: center;
   &:hover{
     background-color:  #f6e05e;
     transition-delay:100ms;
@@ -36,7 +35,7 @@ text-align: center;
   }
   .my-container{
     padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
   }
   
 }

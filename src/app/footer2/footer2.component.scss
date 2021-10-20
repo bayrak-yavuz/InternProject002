@@ -4,10 +4,8 @@ background: #2d3748;
 }
 
 .my-text-1{
-    // margin-top: 15px;
     opacity: .5;
     text-decoration:none;
-    // margin-left: 100px;
     &:hover {
         transition-duration: 300ms;
         opacity: 1;
@@ -15,10 +13,8 @@ background: #2d3748;
 }
 
 .my-text-2{
-    // margin-top: 15px;
     opacity: .5;
     text-decoration:none;
-    // margin-left: 305px;
     &:hover {
         opacity: 1;
     }
