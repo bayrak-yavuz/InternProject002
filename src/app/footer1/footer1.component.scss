@@ -1,12 +1,6 @@
-
-div.col-md-12.col-lg-3 {
-    
-    
+div.col-md-12.col-lg-3 {  
     color: white;
-    
-    
 }
-
 p.baslik{
     font-weight: bolder;
     font-size: larger;
@@ -15,14 +9,10 @@ p.baslik{
 p.text{
     color: rgb(214, 211, 211);
 }
-
 .bg-gray-700 {
     --bg-opacity: 1;
     background-color: #4a5568;
     background-color: rgba(74,85,104,var(--bg-opacity));
-}
-.container{
-   // margin-left: 150px;
 }
 .card{
     border: 0;
@@ -31,7 +21,6 @@ svg.icon{
    white-space: nowrap;
    display: inline block;
 }
-
 @media screen and (max-width: 960px) {
     .card-body.bg-gray-700{
         text-align: left;
@@ -40,7 +29,6 @@ svg.icon{
     div.col-md-12.col-lg-3{
         font-size: medium;
         text-align: center;
-        //margin-left:-25%;
         color:white
     }
     p.adres{
@@ -49,9 +37,6 @@ svg.icon{
    
     }
 }
-
-
-
 @media screen and (max-width: 320px) {
     .card-body.bg-gray-700{
         text-align: center;
@@ -60,12 +45,10 @@ svg.icon{
     div.col-md-12.col-lg-3{
         font-size: medium;
         text-align: center;
-        //margin-left:-25%;
         color:white
     }
     p.adres{
         text-align: center;
-        color:white
-   
+        color:white;
     }
 }

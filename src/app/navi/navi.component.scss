@@ -1,26 +1,16 @@
 .nav-item{
-  // position: relative;
-  // bottom: -20px;
   font-weight: bolder;
   opacity: 0.7;
 }
 .btn.btn--light.dropdown-toggle{
-  // position: relative;
-  // bottom: -20px;
   font-weight: bolder;
   opacity: 0.7;
 }
-
-
  .nav-item:hover {
-
   animation-name: animation_berke;
   animation-duration: 1s;
   animation-timing-function: ease-out;
-
   }
-  
-
   @media screen and (max-width: 768px) {
     .navbar.navbar-expand-xl.navbar-light {
       position: fixed;
@@ -34,16 +24,8 @@
       }
       .btn.btn-success.btn-hidden-lg:hover{
         animation:disabled;
-      }
-    
-       
-     
-      
-     
+      }      
   }
-  
-
-  
   @media screen  and  (max-width: 605px)
   {
     .navbar.navbar-expand-xl.navbar-light {
@@ -54,13 +36,11 @@
       z-index: 999;
        }
     .btn.btn-warning.b2{
-      display: none;
-      
+      display: none;   
     }
     .btn.btn-success.btn-hidden-lg{
       display: none;
     }
-    
   }
   @media screen and (min-width: 1025px){
     .btn.btn-success.btn-hidden-lg{
@@ -68,11 +48,8 @@
     }
     .btn.btn-warning.b2{
     display: none;
-    
   }
-
   }
-
     @media screen and (max-width: 320px) {
     .navbar.navbar-expand-xl.navbar-light {
       position: fixed;
@@ -85,7 +62,6 @@
          animation:disabled;
          position: relative;
          right: 75px;
-
        }
        .btn.btn-success.btn-hidden-lg:hover{
          animation:disabled;
@@ -94,49 +70,27 @@
         display: none;
       }
       .btn.btn-warning.b2{
-      display: none;
-      
+      display: none;   
     }
-       
-     
-      
-     
   }
-
-  
-
-
-
   div.buttons{
     text-align: center;
   }
- 
-
   .btn{
     border-radius:  40px;
-    // position: relative;
-    // bottom: -20px;
   }
-
-  .btn:hover{
-    
+  .btn:hover{ 
    animation-name:animation_berke;
    animation-duration: 1s;
    animation-timing-function:ease-out;
-
-  
   }
-
   @keyframes animation_berke{
     from{background-color: transparent;}
-    to{background-color: #ffbb00;}
-    
+    to{background-color: #ffbb00;} 
   }
-
   .navbar.navbar-expand-lg.navbar-light{
     margin-bottom:-1.7%;
   }
-
   .mobile-nav{
     position: fixed;
     width: 100%;
@@ -145,11 +99,7 @@
     top: 0;
     z-index: 99999;
     background-color: orange;
-   
-    
-
   }
-
   p.head{
     margin-left: 7%;
     margin-top: 4%;
@@ -174,5 +124,4 @@
   p.text2{
     margin-left: 7%;
     font-size: medium;
-
   }
