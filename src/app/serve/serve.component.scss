@@ -1,12 +1,7 @@
 //alperen
-// .serve{
-//   padding: 300px;
-
-// }
-.my-container {
-// padding-top: 50px;
-// padding-bottom: 50px;
-
+.my-container{
+padding-top: 6rem;
+padding-bottom: 6rem;
 }
 .my-col {
 text-align: center;
@@ -15,38 +10,33 @@ text-align: center;
     height: 7px;
     width: 78px;    
     display:inline-block;
-    text-align: center;
 }
 .my-title {
-  // margin-top: 20px;
   font-weight: 700;
 }
 .btn-1{
   width: auto;
   height: 50px;
   font-weight: 350;
-
-
   color: gray;
   background-color:white;
   font-size: 1rem;
-
   text-align: center;
-  // padding-left: 0.75rem;
-  // padding-right: 0.75rem;
-  
-
   &:hover{
     background-color:  #f6e05e;
     transition-delay:100ms;
   }
 }
-@media screen and(max-width:320px) {
+@media screen and(max-width:1023) {
   .my-title{
     font-size: 1.5rem;
   }
   .my-text{
     font-size: .875rem;
+  }
+  .my-container{
+    padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   }
   
 }
