@@ -1,14 +1,10 @@
 //alperen
-.my-col-1 {
-    text-align: center;
-    }
 .my-hr {
     height: 7px;
     width: 78px;    
     display:inline-block;
     text-align: center;
 }
-
 .my-col{
     text-align: center;
 }
@@ -21,12 +17,8 @@
         transform: scale(0.67);
         transition-delay:300ms;
         filter:grayscale(0%);
-        
     }
 }
-
-
-
 @media screen and (max-width:320px) {
     .my-img{
         transform: scale(0.67);

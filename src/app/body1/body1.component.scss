@@ -1,31 +1,21 @@
 // alperen
 .body-1 {
-    width: 100%; 
+width: 100%; 
 max-width:2500px;
 min-height: 520px;
  background-image: url(../../assets/img-body1/hero.webp);
  background-size: cover;
  background-position: 50%;
-
-
  display: table;
- //position:absolute;
  top: 0;
  left: 0;
  height: 100%;
-
-}
-.my-container {
-    margin: 30px;
-   //text-align: center;
 }
 .my-title {
-    //text-align: center;
     font-size: 4rem;
     font-weight: 700;
 }
 .my-text {
-    //text-align: center;
     font-size: 1.2rem;
 }
 .my-col {
@@ -35,20 +25,16 @@ min-height: 520px;
     margin-right: auto;
 }
 .my-row{
-   // align-items: center;
     display: table-cell;
     vertical-align: middle;
-    }
-
-
+}
 @media screen and (max-width:1023px) {
-
     .my-title {
-    font-size: 1.875rem;
-    font-weight: 700;
-}
-.my-text {
-    font-size: .875rem;
-}
+        font-size: 1.875rem;
+        font-weight: 700;
+    }
+    .my-text {
+        font-size: .875rem;
+    }
 }
 
