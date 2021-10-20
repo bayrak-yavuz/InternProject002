@@ -73,3 +73,13 @@ div.col{
          font-size: small;
      }
 }
+@media screen and (min-width: 321px ) and (max-width:426px){
+    button.btn{
+        margin-left: 10px;
+     }
+     p.y2{
+         
+        margin-top: -70px;
+        margin-left:160px;
+     }
+}
