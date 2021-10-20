@@ -5,22 +5,32 @@
     padding-bottom: 2.5rem;
 }
 
-h3,h4{
+h3  {
     text-align: center;
     font-size: 1.875rem;
     font-family: Poppins;
     font-weight: 700;
     margin-bottom: .25rem;
 }
+h4{
+  margin-bottom: .75rem;
+}
+.ml-3{
+    text-align: center;
+    margin-left: 43%;
+    width: 15%;
+    display:inline-block;
+
+}
 hr{
-    opacity: 1;
+
+    margin-bottom: 1rem;
+     opacity: 1;
     background:  #f3c625;
     height: 6px;
     border-radius: 9999px;
-    width: 150px;
-    text-align: center;   
     margin-top: 1.25rem;  
-    text-align: left;
+  
 }
 .kampanya{
     padding: 1.25rem;
@@ -34,15 +44,12 @@ hr{
     height: 100%;
 }
 .details{
-    width: 100%;
-    height: 100%;
-    margin-top: 150px;
+   
+    margin-top: 100px;
     padding-right: 16rem;
 }
 .desktop{
     position: absolute;
-    top: 0;
-    right: 0;
     text-align: right;
     width: 100%;
     height: 100%;
@@ -62,25 +69,14 @@ hr{
     padding-bottom: .25rem;
  }
  
- 
- 
-
-@media (min-width: 1024px){
-.lg\:p-12 {
-    padding: 3rem;
-}}
- 
- 
- 
-
- 
- 
 @media (min-width: 1280px){
 .kampanya {
-    width: 50%;
+    width: 40%;
 }}
  
- 
+.cursor-pointer {
+    cursor: pointer;
+} 
  
  
 .justify-center {
@@ -93,50 +89,21 @@ hr{
 .flex {
     display: flex;
 }
- 
-.inline-block{
-    display: inline-block;
-}
-.rounded-full{
-    border-radius: 9999px;
-}
-.bg-yellow-500{
-    --bg-opacity:1;
-    background-color: rgba(236,201,75, var(--bg-opacity));
-}
- 
- 
- 
- 
 
-.pr-8 {
-    padding-right: 2rem;
-}
-.mb-4 {
-    margin-bottom: 1rem;
-}
-.text-xl {
-    font-size: 1.25rem;
-}
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+   
+    
 }
 .text{
     --text-opacity: 1;
     color: rgba(116,66,16,var(--text-opacity));
 }
- 
- 
- 
 .button:hover {
     --bg-opacity: 1;
     background-color:yellow;
-    cursor: pointer;
-}
+ }
+
 a, li {
     display: inline-block;
     white-space: nowrap;
@@ -145,9 +112,7 @@ a {
     text-decoration: inherit;
 }
 
-.font-semibold{
-    font-weight: 600;
-}
+ 
  
 img {
     max-width: 100%;
@@ -163,9 +128,19 @@ img {
     .desktop {
      display: none;
     }
-     
  } 
- 
+ @media  (max-width:540px) {
+     .desktop{
+         display: none;
+     }
+     .details{
+         display: block;
+         padding-right: 0px;
+     }
+     .ml-5{
+         margin-left: 30%;
+     }
+ }
  
  
  
