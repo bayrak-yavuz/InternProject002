@@ -70,7 +70,7 @@ ol, ul {
 nav{
 margin-left: 600px;
 }
-  @media screen and(max-width:980px)  {
+  @media screen and(max-width:1023px)  {
       
     .header{
         display: none;
@@ -82,5 +82,18 @@ margin-left: 600px;
         display: none;
     }
   }
+  @media screen and(max-width:1370px)  {
+      
+     .text-right{
+         margin-left: 450px;
+     }
+  }
+  @media screen and (max-width:1300px)  {
+      
+    .text-right{
+        margin-left: 150px;
+        margin: 0;
+    }
+ }
      
  
