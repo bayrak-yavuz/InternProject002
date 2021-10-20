@@ -6,55 +6,49 @@ min-height: 520px;
  background-image: url(../../assets/img-body1/hero.webp);
  background-size: cover;
  background-position: 50%;
+
+
+ display: table;
+ //position:absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+
 }
 .my-container {
     margin: 30px;
-    text-align: center;
-  //  z-index: +9999;   
+   //text-align: center;
 }
 .my-title {
-    font-size: 3.2rem;
+    //text-align: center;
+    font-size: 4rem;
     font-weight: 700;
 }
 .my-text {
-    
+    //text-align: center;
     font-size: 1.2rem;
 }
 .my-col {
-//padding: 180px;
-//margin-top: 13%;
-// margin-bottom:2rem;
- text-align: center;
+    width:100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.customers {
-    flex-wrap:wrap
+.my-row{
+   // align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+    }
+
+
+@media screen and (max-width:1023px) {
+
+    .my-title {
+    font-size: 1.875rem;
+    font-weight: 700;
 }
-.myrow{
-    // text-align: center;
-    // align-items: center;
+.my-text {
+    font-size: .875rem;
+}
 }
 
-// @media screen and (min-width:320px) and (max-width:768px) {
-
-//     .my-title{
-//         font-size: 1.875rem;
-//     }
-//     .my-text{
-//         font-size: 0.875rem;
-//     }
-//     .my-container{
-//         text-align: center;
-//     }
-//     .my-col{
-//         text-align: center;
-//     }
-// }
-// @media screen and (max-width:1024){
-//     .my-title{
-//         font-size: 1.875rem;
-//     }
-//     .my-text{
-//         font-size: 0.875rem;
-//     }
-    
-// }
