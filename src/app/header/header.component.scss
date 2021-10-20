@@ -60,7 +60,7 @@ margin-left: 600px;
         display: none;
     }
   }
-  @media screen and(max-width:1024px)  {
+  @media screen and(max-width:1440px)  {
     
 .text-right {
     text-align: right;
@@ -69,6 +69,13 @@ margin-left: 600px;
 .panel{
     margin-left:50px;
 }
+  }
+  @media screen and(max-width:1023px){
+      
+    .header{
+          display: none;
+      }
+      
   }
    
  
