@@ -76,33 +76,21 @@
   div.buttons{
     text-align: center;
   }
- 
-
   .btn{
     border-radius:  40px;
-    // position: relative;
-    // bottom: -20px;
-  }
-
+  }y
   .btn:hover{
-    
    animation-name:animation_berke;
    animation-duration: 1s;
    animation-timing-function:ease-out;
-
-  
   }
-
   @keyframes animation_berke{
     from{background-color: transparent;}
     to{background-color: #ffbb00;}
-    
   }
-
   .navbar.navbar-expand-lg.navbar-light{
     margin-bottom:-1.7%;
   }
-
   .mobile-nav{
     position: fixed;
     width: 100%;
@@ -111,11 +99,7 @@
     top: 0;
     z-index: 99999;
     background-color: orange;
-   
-    
-
   }
-
   p.head{
     margin-left: 7%;
     margin-top: 4%;
@@ -140,5 +124,4 @@
   p.text2{
     margin-left: 7%;
     font-size: medium;
-
   }
