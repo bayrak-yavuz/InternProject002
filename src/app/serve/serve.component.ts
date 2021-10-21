@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./serve.component.scss']
 })
 export class ServeComponent implements OnInit {
-
+  serveTitle1="Hizmetlerimiz"
+  serveText1="Netger'in uzman ekibiyle işinizi daha ileriye taşıyacağımız hizmetlerimiz!"
   constructor() { }
 
   ngOnInit(): void {

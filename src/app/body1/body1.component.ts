@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body1.component.scss']
 })
 export class Body1Component implements OnInit {
+  body1Title="Dijital hayaller şimdi gerçekler!"
+  body1Text="Netger dijital reklam ajansı işinizi büyütmeniz ve geliştirmeniz için dijital çözümler üretir."
 
   constructor() { }
 
