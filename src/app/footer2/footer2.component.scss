@@ -19,21 +19,8 @@ background: #2d3748;
         opacity: 1;
     }
 }
-@media screen and (min-width:768px) {
-    .my-row{
-        text-align: end;
-    }
-    
-}
-@media screen and (max-width:768px) {
-    .my-row{
-        text-align: center;
-    }
-}
-
-@media screen and (max-width:320px) {
 .my-row{
     text-align: center;
-}
-
+    padding-top: .75rem;
+    padding-bottom: .75rem;
 }
