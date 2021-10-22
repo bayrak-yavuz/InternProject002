@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customers.component.scss']
 })
 export class CustomersComponent implements OnInit {
-
+  titleClient="Müşterilerimiz"
+  textClient="Dijital hizmetlerde tercihini Netger'den yana kullanan bazı müşterilerimiz!"
   constructor() { }
 
   ngOnInit(): void {
