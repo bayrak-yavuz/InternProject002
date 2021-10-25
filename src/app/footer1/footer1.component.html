@@ -47,35 +47,31 @@
           </svg> <br><br>
           <img src="assets/img-footer1/logo-foot2.png">
         </div>
+
+
         <div class="col-md-12 col-lg-3 ">
-          <p class="baslik">Ürünler</p>
-          <p class="text">Netger Avukat</p>
-          <p class="text">Netger Doktor</p>
-          <p class="baslik">Hizmetlerimiz</p>
-          <p class="text">Dijital Pazarlama</p>
-          <p class="text">Web Tasarım</p>
-          <p class="text">Sosyal Medya Danışmanlığı</p>
-          <p class="text">Mobil Uygulama Geliştirme</p>
-          <p class="text">Fotoğraf ve Video Çekimi</p>
+          <ul class="baslik" *ngFor="let data of data">
+            {{data.head}}
+            <li class="text"> 
+             {{data.text}} <br>
+            </li>
+           </ul>
         </div>
         <div class="col-md-12 col-lg-3 ">
-          <p class="baslik">Bağlantılar</p>
-          <p class="text">Referanslar</p>
-          <p class="text">Kampanyalar</p>
-          <p class="text">Netger Baskı</p>
-          <p class="text">Blog</p>
-          <p class="text">Kurumsal</p>
-          <p class="text">İnsan Kaynakları</p>
-          <p class="text">İletişim</p>
-          <p class="text">Fatura Ödeme</p>
+          <ul class="baslik" *ngFor="let data of data2">
+            {{data.head}}
+            <li class="text"> 
+             {{data.text}} <br>
+            </li>
+           </ul>
         </div>
         <div class="col-md-12 col-lg-3">
-          <p class="baslik">Yasal</p>
-          <p class="text">Mesafeli Satış Sözleşmesi</p>
-          <p class="text">Ön Bilgilendirme Formu</p>
-          <p class="text">Kişisel Verilerin Korunması</p>
-          <p class="text">Gizlilik Politikası</p>
-          <p class="text">Kullanım Koşulları</p>
+          <ul class="baslik" *ngFor="let data of data3">
+            {{data.head}}
+            <li class="text"> 
+             {{data.text}} <br>
+            </li>
+           </ul>
         </div>
       </div>
     </div>

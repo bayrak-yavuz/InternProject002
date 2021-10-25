@@ -12,34 +12,48 @@ export class NaviComponent implements OnInit {
     text: "Sizi Arayalım",
     url: ""
   }]
-
-
-
-
-  dropdownOne=[{
-    text:"Dijital Pazarlama"
+  
+  navbarD=[{
+    name:"Ürünler",
+    dropdownItems:[{
+      text:"Dijital Pazarlama"
+    },
+    {
+      text:"Web Tasarım"
+    },
+    {
+      text:"Sosyal Medya Danışmanlığı"
+    },
+    {
+      text:"Mobil Uygulama Geliştirme"
+    },
+    {
+      text:"Fotoğraf Ve Video Çekimi"
+    },]
   },
   {
-    text:"Web Tasarım"
-  },
-  {
-    text:"Sosyal Medya Danışmanlığı"
-  },
-  {
-    text:"Mobil Uygulama Geliştirme"
-  },
-  {
-    text:"Fotoğraf Ve Video Çekimi"
-  },]
- 
-  dropdown2=[{
-    text:"Netger Avukat"
-  },
-  {
-    text:"Netger Doktor"
+    name:"Hizmetler",
+    dropdownItems:[{
+      text:"Netger Avukat"
+    },
+    {
+      text:"Netger Doktor"
+    },
+   ]
   },
  ]
- 
+
+ navbar=[{
+   text:"Kurumsal Web Tasarım",
+   
+ },
+ {
+  text:"Netger Baskı"
+},
+{
+  text:"Referanslar"
+},]
+
  
 
 
