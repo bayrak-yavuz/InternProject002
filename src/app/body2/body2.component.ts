@@ -11,5 +11,5 @@ export class Body2Component implements OnInit {
 
   ngOnInit(): void {
   }
-
+  htmlStr:String=""
 }

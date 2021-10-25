@@ -7,6 +7,104 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NaviComponent implements OnInit {
 
+
+  dropdownOne=[{
+    text:"Dijital Pazarlama"
+  },
+  {
+    text:"Web Tasarım"
+  },
+  {
+    text:"Sosyal Medya Danışmanlığı"
+  },
+  {
+    text:"Mobil Uygulama Geliştirme"
+  },
+  {
+    text:"Fotoğraf Ve Video Çekimi"
+  },]
+ 
+  dropdown2=[{
+    text:"Netger Avukat"
+  },
+  {
+    text:"Netger Doktor"
+  },
+ ]
+ 
+ 
+
+
+
+  headers = [{
+    icon: "",
+    head: "Ürünler",
+    text:"Netger Avukat, Netger Doktor",
+    url: ""
+  },
+  {
+    icon: " ",
+    head: "Hizmetler",
+    text: "Dijital Pazarlama, Web Tasarım, Sosyal Medya Danışmanlığı, Mobil Uygulama Geliştirme, Fotoğraf ve Video Çekimi",
+    url: ""
+  },
+
+  {
+    icon: " ",
+    head: "Baskı",
+    text: "Kartvizit,Broşür,İlan,Antetli Kağıt,Zarf,Kalem,Bayrak",
+    url: ""
+  },
+
+  {
+    icon: " ",
+    head: "Referanslar",
+    text: "",
+    url: ""
+  },
+
+  {
+    icon: " ",
+    head: "Blog",
+    text: "",
+    url: ""
+  },
+  {
+    icon: " ",
+    head: "Kurumsal",
+    text: "",
+    url: ""
+  },
+  {
+    icon: " ",
+    head: "İletişim",
+    text: "",
+    url: ""
+  },
+  {
+    icon: " ",
+    head: "",
+    text: "Kampanyalar",
+    url: ""
+  },
+  {
+    icon: " ",
+    head: "",
+    text: "İnsan Kaynakları",
+    url: ""
+  },
+  {
+    icon: " ",
+    head: "",
+    text: "Fatura Ödeme",
+    url: ""
+  },
+
+  
+  
+  ]
+
+  
   constructor() {
     
    }
@@ -15,6 +113,9 @@ export class NaviComponent implements OnInit {
     
   }
  
+
+
+
   public showFirst:boolean=true;
   openNav(){
     this.showFirst=!this.showFirst;
