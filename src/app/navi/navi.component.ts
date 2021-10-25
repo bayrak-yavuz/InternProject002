@@ -13,37 +13,44 @@ export class NaviComponent implements OnInit {
     url: ""
   }]
   
-  navbarD=[{
-    name:"Ürünler",
-    dropdownItems:[{
-      text:"Dijital Pazarlama"
-    },
-    {
-      text:"Web Tasarım"
-    },
-    {
-      text:"Sosyal Medya Danışmanlığı"
-    },
-    {
-      text:"Mobil Uygulama Geliştirme"
-    },
-    {
-      text:"Fotoğraf Ve Video Çekimi"
-    },]
-  },
 
+
+    text1:String="Ürünler"
+    
+
+  
+    text2:String="Hizmetler"
+  
+
+
+dropdownUrunler=[
   {
-    name:"Hizmetler",
-    dropdownItems:[{
-      text:"Netger Avukat"
-    },
-    {
-      text:"Netger Doktor"
-    },
-   ]
+    text:"Dijital Pazarlama"
   },
- ]
+  {
+    text:"Web Tasarım"
+  },
+  {
+    text:"Sosyal Medya Danışmanlığı"
+  },
+  {
+    text:"Mobil Uygulama Geliştirme"
+  },
+  {
+    text:"Fotoğraf Ve Video Çekimi"
+  },
+]
+dropdownHizmetler=[
+  {
+    text:"Netger Avukat",
+  },
+  {
+    text:"Netger Doktor",
+  }
+  
+]
 
+  
  navbar=[{
    text:"Kurumsal Web Tasarım",
    

@@ -12,15 +12,36 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       
-        <div class="dropdown" *ngFor="let data of navbarD">
+        <div class="dropdown">
           <button class="btn btn--light dropdown-toggle" type="button" id="dropdownMenuButton1"
             data-bs-toggle="dropdown" aria-expanded="false">
-            {{data.name}}
+           {{text1}}
           </button>
+
           <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-            <li><a  class="dropdown-item" href="#" *ngFor="let drop of navbarD">{{drop.dropdownItems}}</a></li>
+            <li *ngFor="let drop of dropdownUrunler"><a  class="dropdown-item" href="#" >{{drop.text}}</a></li>
+          </ul>
+
+
+
+
+
+
+        </div>
+
+          <div class="dropdown" >
+            <button class="btn btn--light dropdown-toggle" type="button" id="dropdownMenuButton2"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              {{text2}}
+            </button>
+         
+          <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
+            <li *ngFor="let drop of dropdownHizmetler"><a  class="dropdown-item" href="#" >{{drop.text}}</a></li>
           </ul>
         </div>
+
+
+
 
 
         <li *ngFor="let navbar of navbar" class="nav-item">
