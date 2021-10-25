@@ -62,7 +62,7 @@ a {
     
  }
 
-p {
+.p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -114,9 +114,12 @@ p {
     }
 }
  @media screen and(max-width:767px) {
-     .resler{
-    display: block;
-}
+     .flex{
+         display: block;
+     }
+    .ust{
+        display: block;
+    }
  }
  
 

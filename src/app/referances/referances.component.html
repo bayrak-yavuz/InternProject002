@@ -1,8 +1,6 @@
 <div class="referance w-full  ">
   <div class="  flex container w-full res">
-
     <div class=" text-center ">
-
       <h2> Referanslar</h2>
       <hr>
       <p>Hizmet alanlarımız kapsamında tamamladığımız projelerden bazıları!</p>
@@ -14,18 +12,15 @@
         </svg>
       </a>
     </div>
-
     <div class="  resler res">
-      <div class="ust   ">
-        <div class="   p-3  ">
-          <a target="_blank" href="https://www.uyafa.com/">
-            <div class="border">
-              <img src="/assets/uyafa.webp" alt="kampanya">
-            </div>
+      <div class="ust">
+        <div class="   p-3" *ngFor="let Image of images">
+          <a [href]="Image.url"> <img  [src]="Image.src"> <p>{{Image.text}}</p>
           </a>
-          <p>UYAFA</p>
         </div>
 
+        
+<!-- 
         <div class="   p-3  ">
           <a target="_blank" href="https://www.akselimoglu.com/">
             <div class="  border">
@@ -58,4 +53,4 @@
 
   </div>
 
-</div>
+</div> -->

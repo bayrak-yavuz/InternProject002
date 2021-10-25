@@ -50,8 +50,10 @@ ol, ul {
     margin-left:450px;
 }
  
-nav{
+.right{
 margin-left: 600px;
+text-align: right;
+margin-left:  400px;
 }
   
   @media screen and(max-width:320px)  {
@@ -63,8 +65,7 @@ margin-left: 600px;
   @media screen and(max-width:1440px)  {
     
 .text-right {
-    text-align: right;
-    margin-left:  400px;
+ 
 }
 .panel{
     margin-left:50px;
