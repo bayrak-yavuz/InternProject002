@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NaviComponent implements OnInit {
 
+  icon = [{
+    icon: "fas fa-phone-alt",
+    text: "Sizi Arayalım",
+    url: ""
+  }]
+
+
+
 
   dropdownOne=[{
     text:"Dijital Pazarlama"
