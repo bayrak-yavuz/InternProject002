@@ -10,11 +10,36 @@ import { Component, OnInit } from '@angular/core';
 export class ServeComponent implements OnInit {
   serveTitle1="Hizmetlerimiz"
   serveText1="Netger'in uzman ekibiyle işinizi daha ileriye taşıyacağımız hizmetlerimiz!"
-  buton1Text="Dijital Pazarlama"
-  buton2Text="Web Tasarım"
-  buton3Text="Sosyal Medya Danışmanlığı"
-  buton4Text="Mobil Uygulama Geliştirme"
-  buton5Text="Fotograf ve Video Çekimi"
+  
+  
+  icons=[{
+    icon:"fab fa-adversal",
+    text:" Dijital Pazarlama",
+  },
+    {
+      icon:"fas fa-laptop-code",
+
+      text:" Web Tasarım",
+
+    },
+    {
+      icon:"fas fa-hashtag",
+
+      text:" Sosyal Medya Danışmanlığı",
+    },
+    {
+      icon:"fas fa-mobile-alt",
+
+      text:" Mobil Uygulama Geliştirme",
+
+    },
+    {
+      icon:"fas fa-camera",
+
+      text:" Fotograf ve Video Çekimi",
+
+    }
+]
 
   constructor() { }
 
