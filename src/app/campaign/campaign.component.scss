@@ -13,23 +13,22 @@ h3  {
     margin-bottom: .25rem;
 }
 h4{
-  margin-bottom: .75rem;
+  margin-bottom: .25rem;
 }
 .ml-3{
-    text-align: center;
-    margin-left: 43%;
-    width: 15%;
+    margin-left: 45%;
+    width: 10%;
     display:inline-block;
 
 }
 hr{
 
-    margin-bottom: 1rem;
-     opacity: 1;
+    margin-top: 0px;
+    opacity: 1;
     background:  #f3c625;
     height: 6px;
     border-radius: 9999px;
-    margin-top: 1.25rem;  
+      
   
 }
 .kampanya{
@@ -40,7 +39,7 @@ hr{
     position: relative;
     --bg-opacity: 1;
     background-color: rgba(255,255,255,var(--bg-opacity));
-    align-items: flex-end;
+    align-items: flex -end;
     height: 100%;
 }
 .details{
@@ -112,8 +111,6 @@ a {
     text-decoration: inherit;
 }
 
- 
- 
 img {
     max-width: 100%;
     height: 100%;
