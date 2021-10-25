@@ -31,6 +31,7 @@ export class NaviComponent implements OnInit {
       text:"Fotoğraf Ve Video Çekimi"
     },]
   },
+
   {
     name:"Hizmetler",
     dropdownItems:[{
