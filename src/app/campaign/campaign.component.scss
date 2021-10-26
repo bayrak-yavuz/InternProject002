@@ -13,8 +13,8 @@ h3  {
     margin-bottom: .25rem;
 }
 h4{
-  margin-bottom: .25rem;
-}
+    margin-top:0px;
+} 
 .ml-3{
     margin-left: 45%;
     width: 10%;
@@ -39,14 +39,16 @@ hr{
     position: relative;
     --bg-opacity: 1;
     background-color: rgba(255,255,255,var(--bg-opacity));
-    align-items: flex -end;
+     
     height: 100%;
 }
 .details{
    
-    margin-top: 100px;
-    padding-right: 16rem;
+    margin-top: 50px;
+    padding-right: 15rem;
+   
 }
+ 
 .desktop{
     position: absolute;
     text-align: right;
@@ -55,17 +57,16 @@ hr{
 
 }
 .button{
-    border-bottom-width: 2px;
-    --border-opacity: 1;
+     --border-opacity: 1;
  background-color:#f3c625;
  border-color: #744210;
     border-radius: 9999px;
     font-size: .875rem;
-    margin-top: 1.25rem;
-    padding-left: .75rem;
+     padding-left: .75rem;
     padding-right: .75rem;
     padding-top: .25rem;
     padding-bottom: .25rem;
+    text-decoration: inherit;
  }
  
 @media (min-width: 1280px){
@@ -89,11 +90,7 @@ hr{
     display: flex;
 }
 
-p {
-    display: block;
-   
-    
-}
+
 .text{
     --text-opacity: 1;
     color: rgba(116,66,16,var(--text-opacity));
@@ -109,12 +106,16 @@ a, li {
 }
 a {
     text-decoration: inherit;
+    color:inherit
 }
 
 img {
     max-width: 100%;
     height: 100%;
      vertical-align: middle;
+     padding-right:  0rem;
+     
+ 
 }
 
 @media (min-width: 1024px){
