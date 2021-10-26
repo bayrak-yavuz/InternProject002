@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Body2Component implements OnInit {
 
-  bold:String='<p class="aciklama">Netger internet sitenizi tüm platformlarda<br> <span style="font-weight:bolder;" >en iyi</span> görüntülenecek şekilde tasarlar.</p>'
+  bold:String='<p class="aciklama">Netger internet sitenizi tüm platformlarda<br> <b>en iyi</b> görüntülenecek şekilde tasarlar.</p>'
 
   page={
     head:"Tüm Platformlar Tek Çözüm",

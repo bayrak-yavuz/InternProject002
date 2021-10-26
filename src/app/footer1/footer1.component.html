@@ -7,10 +7,12 @@
             <a [href]="icon.url"> <img [src]="icon.img"> <i [ngClass]="icon.icon"></i>{{icon.text}}
             </a>
           </li>
-          <li class="mahmut" style="float: left;" *ngFor="let icon of icons">
-            <a [href]="icon.url"> <i [ngClass]="icon.icon"></i>
+          <li class="icons"  *ngFor="let icon of icons">
+            <a class="mahmut" [href]="icon.url"> <i [ngClass]="icon.icon"></i>
             </a>
+           
           </li>
+          <img class="x" src="/assets/img-footer1/logo-foot2.png">
         </div>
         <div class="col-md-12 col-lg-3 ">
           <ul class="baslik" *ngFor="let data of data">

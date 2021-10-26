@@ -6,21 +6,42 @@ ul.baslik{
     font-size: larger;
     color: white;
     list-style: none;
+    
 }
 a{
     color: inherit;
     text-decoration: inherit;
-    
+   
+}
+li.icons{
+    float: left;
+    list-style: none;
+    margin-top: 25px;
+    color: inherit;
+
+}
+img.x{
+    margin-top: 70px;
+    margin-left: -140px;
+}
+a.mahmut{
+position: relative;
+left: -10px;
+margin-left: 10px;
 }
 li.mahmut{
     list-style: none;
     margin-top: 25px;
     color: inherit;
 }
+div.col-md-12.col-lg-3{
+margin-top: 30px;
+}
 li.text{
     font-weight: lighter;
     line-height: 20px;
-   font-size: medium;
+    
+    font-size: medium;
     color: rgb(214, 211, 211);
 }
 .bg-gray-700 {
@@ -65,4 +86,10 @@ svg.icon{
         text-align: center;
         color:white;
     }
+    li.icons{
+        text-align: center;
+        position: relative;
+        left: 70px;
+    }
+   
 }
