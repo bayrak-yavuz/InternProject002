@@ -11,11 +11,11 @@ export class Body2Component implements OnInit {
 
   page={
     head:"Tüm Platformlar Tek Çözüm",
-    
+    button:"Sizi Arayalım"
   }
   constructor() { }
 
   ngOnInit(): void {
   }
-  htmlStr:String=""
+  
 }

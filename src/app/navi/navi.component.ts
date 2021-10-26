@@ -7,14 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NaviComponent implements OnInit {
 
-  icon = [{
-    icon: "fas fa-phone-alt",
-    text: "Sizi Arayalım",
-    url: ""
-  }]
+  buttons = {
+    text:"Teklif Alın",
+    phone:"444 0 908",
+    language:"EN",
+    callLong:"Sizi Arayalım",
+    call:"Ara"
+  }
 
 
-  
+
   
 
 
