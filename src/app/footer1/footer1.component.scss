@@ -10,14 +10,17 @@ ul.baslik{
 a{
     color: inherit;
     text-decoration: inherit;
+    
 }
 li.mahmut{
     list-style: none;
+    margin-top: 25px;
     color: inherit;
 }
 li.text{
-    
-    font-size: smaller;
+    font-weight: lighter;
+    line-height: 20px;
+   font-size: medium;
     color: rgb(214, 211, 211);
 }
 .bg-gray-700 {

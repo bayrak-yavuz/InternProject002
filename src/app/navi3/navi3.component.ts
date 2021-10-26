@@ -9,6 +9,10 @@ export class Navi3Component implements OnInit {
 
   constructor() { }
 
+  
+  text1:String="Sizi Arayalım";
+
+  text2:String="info@netger.net"
   ngOnInit(): void {
   }
 

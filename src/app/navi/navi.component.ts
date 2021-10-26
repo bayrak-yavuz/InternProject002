@@ -12,6 +12,9 @@ export class NaviComponent implements OnInit {
     text: "Sizi Arayalım",
     url: ""
   }]
+
+
+  
   
 
 

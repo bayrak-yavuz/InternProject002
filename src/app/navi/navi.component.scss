@@ -5,7 +5,16 @@
 .btn.btn--light.dropdown-toggle{
   font-weight: bolder;
   opacity: 0.7;
+  
 }
+
+.btn.btn--light.dropdown-toggle:hover{
+  animation-name: animation_berke;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  
+}
+
  .nav-item:hover {
   animation-name: animation_berke;
   animation-duration: 1s;
