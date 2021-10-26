@@ -8,8 +8,8 @@
       <p class="text-dark  ">{{serveText1}}</p>
     </div>
     <div class="row justify-content-center my-row">
-      <div class="col my-col" *ngFor="let icon of icons">
-        <button class="btn-1 border-0 shadow-sm rounded-pill mb-2 mx-4 lg:mx-1 text-gray-600"><i [ngClass]="icon.icon"></i>{{icon.text}}</button>
+      <div class="col my-col" >
+        <button class="btn-1 border-0 shadow-sm rounded-pill text-gray-600" *ngFor="let icon of icons"><i [ngClass]="icon.icon"></i>{{icon.text}}</button>
       </div>
     </div>
   </div>

@@ -5,6 +5,7 @@ padding-bottom: 6rem;
 }
 .my-col {
 text-align: center;
+;
 }
 .my-hr {
     height: 7px;
@@ -14,15 +15,21 @@ text-align: center;
 .my-title {
   font-weight: 700;
 }
+.my-row{
+  text-align: center;
+}
 .btn-1{
   width: auto;
-  height: 50px;
+  height: 40px;
   font-weight: 350;
   color: gray;
   background-color:white;
   font-size: 1rem;
-
-
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-left: 0.5rem;
+  margin-right: .5rem ;
+  margin-top: .5rem;
   &:hover{
     background-color:  #f6e05e;
     transition-delay:100ms;
