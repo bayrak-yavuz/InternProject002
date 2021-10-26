@@ -12,6 +12,13 @@ a{
     text-decoration: inherit;
     
 }
+li.icons{
+    float: left;
+    list-style: none;
+    margin-top: 25px;
+    color: inherit;
+
+}
 img.x{
     margin-top: 70px;
     margin-left: -140px;
@@ -74,4 +81,10 @@ svg.icon{
         text-align: center;
         color:white;
     }
+    li.icons{
+        text-align: center;
+        position: relative;
+        left: 70px;
+    }
+   
 }
