@@ -7,25 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NaviComponent implements OnInit {
 
-  icon = [{
-    icon: "fas fa-phone-alt",
-    text: "Sizi Arayalım",
-    url: ""
-  }]
-
-
+data=[
   
-  
+]
 
 
-    text1:String="Ürünler"
-    
 
-  
+
+  buttons = {
+    text:"Teklif Alın",
+    phone:"444 0 908",
+    language:"EN",
+    callLong:"Sizi Arayalım",
+    call:"Ara"
+  }
+    text1:String="Ürünler"  
     text2:String="Hizmetler"
-  
-
-
 dropdownUrunler=[
   {
     text:"Dijital Pazarlama"
@@ -52,8 +49,6 @@ dropdownHizmetler=[
   }
   
 ]
-
-  
  navbar=[{
    text:"Kurumsal Web Tasarım",
    
@@ -64,11 +59,6 @@ dropdownHizmetler=[
 {
   text:"Referanslar"
 },]
-
- 
-
-
-
   headers = [{
     icon: "",
     head: "Ürünler",

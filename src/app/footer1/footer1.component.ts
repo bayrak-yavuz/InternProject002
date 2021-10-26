@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer1.component.scss']
 })
 export class Footer1Component implements OnInit {
+
+
+  googleImg="/assets/img-footer1/logo-foot2.png"
   icons=[{
     icon: "fab fa-facebook ",
     text: "",
     url: "https://www.facebook.com/netgerajans/",
+    img:"",
     leftSide:true,
      
   },
@@ -18,6 +22,7 @@ export class Footer1Component implements OnInit {
     icon: "fab fa-twitter ",
     text: "",
     url: "https://www.twitter.com/netgerajans/",
+    img:"",
     leftSide:true,
   
   },
@@ -26,6 +31,7 @@ export class Footer1Component implements OnInit {
     icon: "fab fa-linkedin ",
     text: "",
     url: "https://tr.linkedin.com/organization-guest/company/netger",
+    img:"",
     leftSide:true,
    
   },
@@ -34,6 +40,7 @@ export class Footer1Component implements OnInit {
     icon: "fab fa-instagram  ",
     text: "",
     url: "https://www.instagram.com/netgerturkiye/",
+    img:"",
     leftSide:true,
    
   },
@@ -42,8 +49,13 @@ export class Footer1Component implements OnInit {
     icon: "fab fa-youtube ",
     text: "",
     url: "https://www.youtube.com/channel/UCXNS9S51ajlTsrBv8YK7gvw",
+    img:"",
     leftSide:true,
-  
+    
+  },
+  {
+    icon:"",
+    img:"",
   },]
 
   data0=[
@@ -74,7 +86,7 @@ export class Footer1Component implements OnInit {
     url: "",
     leftSide:true,
   },
-  
+ 
 ]
 
 
