@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class Navi3Component implements OnInit {
   mahmut:any;
   constructor(private router:Router) { }
-
   data=[
     {
     language:"en",
@@ -17,27 +16,19 @@ export class Navi3Component implements OnInit {
      call:"Call You",
      mail:"info@netger.net",
     },
-   
     },
-
-
     {
       language:"tr",
       page:{
         call:"Sizi Arayalım",
         mail:"info@netger.net",
       },
-     
       }
   ]
- 
-  
   lang="";
   ngOnInit(): void {
-    
     this.router.events.subscribe(res=>{
       if (res instanceof NavigationEnd){
-       
        this.lang=res.url
       }
       if(this.lang=="/"){
@@ -46,11 +37,8 @@ export class Navi3Component implements OnInit {
       else if(this.lang=="/en"){
         this.mahmut=this.data.find(x => x.language == "en")
       }
-      
       console.log(this.lang)
-      
     })
     console.log(this.lang)
-    
   }
 }

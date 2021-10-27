@@ -45,11 +45,9 @@ data=[
       {
         text:"Netger Doctor",
       }
-      
     ],
     navbar:[{
       text:"Corporote Web Design",
-      
     },
     {
      text:"Netger Oppression"
@@ -69,14 +67,12 @@ data=[
     text: "Digital Marketing, Web Design, Social Media Consulting, Mobile Application Development, Photo and Video Shooting",
     url: ""
   },
-
   {
     icon: " ",
     head: "oppression",
     text: "Business Card, Brochure, Advertisement, Letterhead, Envelope, Pen, Flag",
     url: ""
   },
-
   {
     icon: " ",
     head: "Referances",
@@ -120,12 +116,7 @@ data=[
     text: "Paying bills",
     url: ""
   },
-
-  
-  
-  ]
-     
-
+  ]   
   }
 },
 {
@@ -164,11 +155,9 @@ data=[
       {
         text:"Netger Doktor",
       }
-      
     ],
     navbar:[{
-      text:"Kurumsal Web Tasarım",
-      
+      text:"Kurumsal Web Tasarım",  
     },
     {
      text:"Netger Baskı"
@@ -239,34 +228,16 @@ data=[
     text: "Fatura Ödeme",
     url: ""
   },
-
-  
-  
   ]
-
-  
   }
 }
 ]
-
-
-
-
-  
-
-
-
- 
-  constructor(private router:Router) {
-    
+  constructor(private router:Router) {  
    }
-
    lang="";
-  ngOnInit(): void {
-    
+  ngOnInit(): void {  
     this.router.events.subscribe(res=>{
       if (res instanceof NavigationEnd){
-       
        this.lang=res.url
       }
       if(this.lang=="/"){
@@ -274,18 +245,9 @@ data=[
       }
       else if(this.lang=="/en"){
         this.mahmut=this.data.find(x => x.language == "en")
-      }
-      
-      console.log(this.lang)
-      
-    })
-    console.log(this.lang)
-    
+      } 
+    })  
   }
- 
-
-
-
   public showFirst:boolean=true;
   openNav(){
     this.showFirst=!this.showFirst;

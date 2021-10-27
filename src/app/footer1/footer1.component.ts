@@ -7,11 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer1.component.scss']
 })
 export class Footer1Component implements OnInit {
-
   mahmut:any;
-
   googleImg="/assets/img-footer1/logo-foot2.png"
-
   page=[
   {
     language:"en",
@@ -19,7 +16,6 @@ export class Footer1Component implements OnInit {
       data:[{
         head:"Products",
         text:""
-        
       },
       {
         head:"",
@@ -48,7 +44,6 @@ export class Footer1Component implements OnInit {
           text:""
         },
         {
-        
           head:"",
           text:"Portfolio"
         },{
@@ -78,41 +73,32 @@ export class Footer1Component implements OnInit {
         },
     
       ],
-    
       data3:[{
-        
           head:"Legal",
           text:""
         },
-       
         {
-        
           head:"",
           text:"Distance Sales Agreement"
         },
         {
-        
           head:"",
           text:"Preliminary Information Form"
         },
         {
-        
           head:"",
           text:"Kişisel Verilerin Korunması"
         },
         {
-        
           head:"",
           text:"Privacy Policy"
         },
         {
-        
           head:"",
           text:"Terms of Use"
         },
       ]
     }
-
   },
   {
     language:"tr",
@@ -120,7 +106,6 @@ export class Footer1Component implements OnInit {
       data:[{
         head:"Ürünler",
         text:""
-        
       },
       {
         head:"",
@@ -149,7 +134,6 @@ export class Footer1Component implements OnInit {
           text:""
         },
         {
-        
           head:"",
           text:"Refeanslar"
         },{
@@ -177,48 +161,34 @@ export class Footer1Component implements OnInit {
           head:"",
           text:"Fatura Ödeme"
         },
-    
       ],
-    
       data3:[{
-        
           head:"Yasal",
           text:""
         },
-       
         {
-        
           head:"",
           text:"Mesafeli Satış Sözleşmesi"
         },
         {
-        
           head:"",
           text:"Ön Bilgilendirme Formu"
         },
         {
-        
           head:"",
           text:"Kişisel Verilerin Korunması"
         },
         {
-        
           head:"",
           text:"Gizlilik Politikası"
         },
         {
-        
           head:"",
           text:"Kullanım Koşulları"
         },
       ]
     }
-
   }
-
-
-
-
   ]
   icons=[{
     icon: "fab fa-facebook ",
@@ -226,27 +196,21 @@ export class Footer1Component implements OnInit {
     url: "https://www.facebook.com/netgerajans/",
     img:"",
     leftSide:true,
-     
   },
-
   {
     icon: "fab fa-twitter ",
     text: "",
     url: "https://www.twitter.com/netgerajans/",
     img:"",
     leftSide:true,
-  
   },
-
   {
     icon: "fab fa-linkedin ",
     text: "",
     url: "https://tr.linkedin.com/organization-guest/company/netger",
     img:"",
     leftSide:true,
-   
   },
-
   {
     icon: "fab fa-instagram  ",
     text: "",
@@ -255,7 +219,6 @@ export class Footer1Component implements OnInit {
     leftSide:true,
    
   },
-
   {
     icon: "fab fa-youtube ",
     text: "",
@@ -268,46 +231,36 @@ export class Footer1Component implements OnInit {
     icon:"",
     img:"",
   },]
-
   data0=[
     {
       icon:"",
       img:"/assets/img-footer1/logo-footx.png",
     },
-    
     {
     icon: "fas fa-phone-alt",
     text: "    444 8 908",
     url: "tel:4448908",
     leftSide:true,
-    
-    
   },
   {
     icon: "fas fa-envelope ",
     text: "    info@netger.net",
     url: "mailto:info@netger.net",
     leftSide:true,
- 
   },
   {
-    
     icon: "fas fa-map-marker-alt",
     text: "Manas Bulvarı Adalet Mahallesi Folkart Towers A Kule No:47 B Kat:21 D:2107 Bayraklı/İzmir ",
     url: "",
     leftSide:true,
   },
- 
 ]
-
   constructor(private route: ActivatedRoute, private router:Router ) { }
 
   lang="";
   ngOnInit(): void {
-    
     this.router.events.subscribe(res=>{
       if (res instanceof NavigationEnd){
-       
        this.lang=res.url
       }
       if(this.lang=="/"){
@@ -316,12 +269,9 @@ export class Footer1Component implements OnInit {
       else if(this.lang=="/en"){
         this.mahmut=this.page.find(x => x.language == "en")
       }
-      
       console.log(this.lang)
       
     })
     console.log(this.lang)
-    
   }
-
 }
