@@ -2,9 +2,9 @@
   <div class="container">
     <a class="navbar-brand" href="#"><img src="assets/img-navi/logo-s.png" class="rounded mx-auto d-block"
         alt="..."></a>
-    <button type="button" class="btn btn-warning b2"> <i class="fas fa-comment-dots"></i> {{buttons.text}}</button>
+    <button type="button" class="btn btn-warning b2"> <i class="fas fa-comment-dots"></i> {{mahmut.page.buttons.text}}</button>
     <button type="button" class="btn btn-success btn-hidden-lg"><i class="fas fa-phone-alt"></i>
-      {{buttons.call}}</button>
+      {{mahmut.page.buttons.call}}</button>
     <button class="navbar-toggler" type="button" (click)="openNav()">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,40 +13,40 @@
         <div class="dropdown">
           <button class="btn btn--light dropdown-toggle" type="button" id="dropdownMenuButton1"
             data-bs-toggle="dropdown" aria-expanded="false">
-            {{text1}}
+            {{mahmut.page.buttons.text1}}
           </button>
           <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-            <li *ngFor="let drop of dropdownUrunler"><a class="dropdown-item" href="#">{{drop.text}}</a></li>
+            <li *ngFor="let drop of mahmut.page.dropdownUrunler"><a class="dropdown-item" href="#">{{drop.text}}</a></li>
           </ul>
         </div>
         <div class="dropdown">
           <button class="btn btn--light dropdown-toggle" type="button" id="dropdownMenuButton2"
             data-bs-toggle="dropdown" aria-expanded="false">
-            {{text2}}
+            {{mahmut.page.buttons.text2}}
           </button>
           <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
-            <li *ngFor="let drop of dropdownHizmetler"><a class="dropdown-item" href="#">{{drop.text}}</a></li>
+            <li *ngFor="let drop of mahmut.page.dropdownHizmetler"><a class="dropdown-item" href="#">{{drop.text}}</a></li>
           </ul>
         </div>
-        <li *ngFor="let navbar of navbar" class="nav-item">
+        <li *ngFor="let navbar of mahmut.page.navbar" class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">{{navbar.text}}</a>
         </li>
-        <button type="button" class="btn btn-warning"> <i class="fas fa-phone-alt"></i> {{buttons.callLong}}</button>
+        <button type="button" class="btn btn-warning"> <i class="fas fa-phone-alt"></i> {{mahmut.page.buttons.callLong}}</button>
       </ul>
     </div>
   </div>
 </nav>
 <div *ngIf="!showFirst" class="mobile-nav">
-  <ul class="head" *ngFor="let icon of headers">
+  <ul class="head" *ngFor="let icon of mahmut.page.headers">
     {{icon.head}}
     <li class="text">
       {{icon.text}}
     </li>
   </ul>
   <div class="buttons">
-    <button type="button" class="btn btn-warning"> <i class="fas fa-comment-dots"></i> {{buttons.text}} </button>
-    <button type="button" class="btn btn-warning"> <i class="fas fa-phone-alt"></i> {{buttons.phone}}</button>
-    <button type="button" class="btn btn-warning"> {{buttons.language}}</button>
+    <button type="button" class="btn btn-warning"> <i class="fas fa-comment-dots"></i> {{mahmut.page.buttons.text}} </button>
+    <button type="button" class="btn btn-warning"> <i class="fas fa-phone-alt"></i> {{mahmut.page.buttons.phone}}</button>
+    <button type="button" class="btn btn-warning"> {{mahmut.page.buttons.language}}</button>
   </div>
   <button (click)="openNav()" class="exit">X </button>
 </div>
