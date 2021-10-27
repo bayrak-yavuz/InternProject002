@@ -13,20 +13,7 @@ export class Footer2Component implements OnInit {
 
   
   constructor() {}
-  lang:any
-  setLanguages():void{
-    if (this.lang=="EN"){
-      this.lang="TR"
-      this.footer2="EN"
 
-    }
-    else {
-      this.lang="EN"
-      this.footer2 ="TR"
-
-    }
-
-  }
 
 
     
