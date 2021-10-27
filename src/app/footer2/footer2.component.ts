@@ -10,8 +10,27 @@ import { Component, OnInit } from '@angular/core';
 export class Footer2Component implements OnInit {
   footer1="Netger A.Ş. © Copyright 2020"
   footer2="EN"
-  constructor() { }
 
+  
+  constructor() {}
+  lang:any
+  setLanguages():void{
+    if (this.lang=="EN"){
+      this.lang="TR"
+      this.footer2="EN"
+
+    }
+    else {
+      this.lang="EN"
+      this.footer2 ="TR"
+
+    }
+
+  }
+
+
+    
+    
   ngOnInit(): void {
   }
 
