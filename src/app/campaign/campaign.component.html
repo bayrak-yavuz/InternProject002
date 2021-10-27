@@ -2,90 +2,32 @@
     <div class="kutu container">
         <h3>Kampanyalar</h3>
         <hr class="ml-3">
-        <div>
-            <div class=" flex flex-wrap justify-center">
-                <div class="kampanya  ">
-                    <div class="kare flex flex-wrap">
 
-                        <div class="desktop">
-                            <img src="/assets/kampanya-3.jpg" alt="kampanya">
-                        </div>
-                        <div class="mobile w-full z-0 lg:hidden border-b-2">
-                            <img src="/assets/kampanya-3-m.jpg" alt="kampanya">
-                        </div>
-                        <div class="details">
-                            <h4>Kurumsal Web Tasarım</h4>
-                            <p>Firmanıza özel hazırlanmış bir internet siteniz olsun!</p>
-                            <a href="/kurumsal-web-tasarim" class="button text cursor-pointer ">Daha
-                                fazla bilgi
-                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 -40 448 512" height="10">
-                                    <path fill="currentColor"
-                                        d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
+        <div class=" flex flex-wrap justify-center">
+            <div class="kampanya" *ngFor="let item of camp">
+                <div class="kare flex flex-wrap">
+                    <div class="desktop">
+                        <img class="img" [src]="item.src">
                     </div>
-                </div>
-                <div class="kampanya">
-                    <div class="kare flex flex-wrap">
 
-                        <div class="desktop">
-                            <img src="/assets/kampanya.jpg" alt="kampanya">
-                        </div>
-                        <div class="mobile w-full z-0 lg:hidden border-b-2">
-                            <img src="/assets/kampanya-m.jpg" alt="kampanya">
-                        </div>
 
-                        <div class="details">
-                            <h4>Netger Avukat ürününde %20 indirim Fırsatı</h4>
-                            <p>Ofisini son 1 yıl içinde açan avukatlara özel!</p>
-                            <a href="/kurumsal-web-tasarim" class="button text cursor-pointer ">Daha
-                                fazla bilgi
-                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 -40 448 512" height="10">
-                                    <path fill="currentColor"
-                                        d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
+                    <div class="details" *ngFor="let text of camp2">
+                        <h4>{{text.head}}</h4>
+                        <p>{{text.text}}</p>
+                        
                     </div>
+                    
+                    <div *ngFor="let icon of camp3" >
+                        <a class="button" [href]="icon.url"> {{icon.text}}<i [ngClass]="icon.icon"></i>
+                        </a></div> 
                 </div>
-                <div class="kampanya ">
-                    <div class="kare flex flex-wrap">
-
-                        <div class="desktop">
-                            <img src="/assets/kampanya-2.jpg" alt="kampanya">
-                        </div>
-                        <div class="mobile w-full z-0 lg:hidden border-b-2">
-                            <img src="/assets/kampanya-2-m.jpg" alt="kampanya">
-                        </div>
-
-                        <div class="details">
-                            <h4>Netger Doktor ürününde %20 İndirim Fırsatı</h4>
-                            <p>Özel muayenehanesini son 1 yıl içinde açan doktorlara özel!</p>
-                            <a href="/kurumsal-web-tasarim" class="button text cursor-pointer ">Daha
-                                fazla bilgi
-                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 -40 448 512" height="10">
-                                    <path fill="currentColor"
-                                        d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
             </div>
-
-
         </div>
-
     </div>
+
+
+</div>
+
+<!-- <div class="mobile w-full z-0 lg:hidden border-b-2"  *ngFor="let item of camp4">
+                            <img class="img" [src]="item.src"> 
+                        </div>  -->
