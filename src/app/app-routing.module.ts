@@ -1,9 +1,12 @@
-import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   
-  //{ path: 'en', redirectTo: '/', pathMatch: 'full' },
+  { path: '', children:[
+    {path:':lang' ,component:AppComponent}
+  ] },
 ];
 
 @NgModule({

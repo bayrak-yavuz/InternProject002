@@ -1,5 +1,6 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 @Component({
   selector: 'app-body2',
   templateUrl: './body2.component.html',
@@ -38,18 +39,25 @@ export class Body2Component implements OnInit {
    }
 
 
-  constructor(private route: ActivatedRoute ) {  }
-
+  constructor(private route: ActivatedRoute, private router:Router  ) {}
+  lang="";
   ngOnInit(): void {
-    const lang=this.route.snapshot.paramMap.get('id');
-    console.log(lang)
-    if(lang==null){
-      this.mahmut=this.data.find(x => x.language == "tr")
-    }
-    else if(lang=="en"){
-      this.mahmut=this.data.find(x => x.language == "en")
-    }
-    
+    this.router.events.subscribe(res=>{
+      if (res instanceof NavigationEnd){
+       
+       this.lang=res.url
+      }
+      if(this.lang=="/"){
+        this.mahmut=this.data.find(x => x.language == "tr")
+      }
+      else if(this.lang=="/en"){
+        this.mahmut=this.data.find(x => x.language == "en")
+      }
+      
+      console.log(this.lang)
+      
+    })
+    console.log(this.lang)
     
   }
   
