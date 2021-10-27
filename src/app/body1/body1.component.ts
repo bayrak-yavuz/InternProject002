@@ -50,5 +50,5 @@ export class Body1Component implements OnInit {
     })
     
   }
-
 }
+

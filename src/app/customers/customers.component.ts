@@ -1,6 +1,8 @@
 //alperen
 
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-customers',
@@ -8,9 +10,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customers.component.scss']
 })
 export class CustomersComponent implements OnInit {
-  titleClient="Müşterilerimiz"
-  textClient="Dijital hizmetlerde tercihini Netger'den yana kullanan bazı müşterilerimiz!"
-  constructor() { }
+  bos:any
+  lang=""
+  body1=[
+    {
+      language:"tr",
+      titleClient:"Müşterilerimiz",
+      textClient:"Dijital hizmetlerde tercihini Netger'den yana kullanan bazı müşterilerimiz!"
+
+
+
+    },
+    {
+      language:"en",
+      titleClient:"Our Clients",
+      textClient:"List of some our customers preferring Netger for their digital services!"
+
+
+    }
+  ]
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+  ) { }
 
 
   images=[
@@ -178,6 +200,18 @@ export class CustomersComponent implements OnInit {
   ]
 
   ngOnInit(): void {
+    this.router.events.subscribe(res=>{
+      if (res instanceof NavigationEnd ){
+        this.lang=res.url
+      }
+      if(this.lang=="/en"){
+        this.bos=this.body1.find(x=> x.language == "en")
+      }
+      else{
+          this.bos=this.body1.find(x=> x.language == "tr")
+      }
+    
+    })
   }
 
 }
