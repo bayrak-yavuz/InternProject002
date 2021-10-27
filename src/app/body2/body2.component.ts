@@ -29,19 +29,15 @@ export class Body2Component implements OnInit {
       bold:'<p class="aciklama">Netger internet sitenizi tüm platformlarda<br> <b>en iyi</b> görüntülenecek şekilde tasarlar.</p>'
       }
   ]
- 
 
-  bold:String='<p class="aciklama">Netger internet sitenizi tüm platformlarda<br> <b>en iyi</b> görüntülenecek şekilde tasarlar.</p>'
-  
-  page={
-    head:"Tüm Platformlar Tek Çözüm",
-   button:"Sizi Arayalım"
-   }
 
 
   constructor(private route: ActivatedRoute, private router:Router  ) {}
+
+
   lang="";
   ngOnInit(): void {
+    
     this.router.events.subscribe(res=>{
       if (res instanceof NavigationEnd){
        
