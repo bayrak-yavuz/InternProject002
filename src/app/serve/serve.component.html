@@ -3,13 +3,13 @@
 <div class="container-fluid my-container bg-secondary bg-opacity-10">
   <div class="row my-row ">
     <div class="col-12 my-col">
-      <h1 class="my-title text-dark ">{{serveTitle1}}</h1>
+      <h1 class="my-title text-dark ">{{bos2.serveTitle1}}</h1>
       <div class="my-hr rounded-pill bg-warning"></div>
-      <p class="text-dark  ">{{serveText1}}</p>
+      <p class="text-dark  ">{{bos2.serveText1}}</p>
     </div>
     <div class="row justify-content-center my-row">
       <div class="col my-col" >
-        <button class="btn-1 border-0 shadow-sm rounded-pill text-gray-600" *ngFor="let icon of icons"><i [ngClass]="icon.icon"></i>{{icon.text}}</button>
+        <button class="btn-1 border-0 shadow-sm rounded-pill text-gray-600" *ngFor="let icon of bos"><i [ngClass]="icon.icon"></i>{{icon.text}}</button>
       </div>
     </div>
   </div>
