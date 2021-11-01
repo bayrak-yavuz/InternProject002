@@ -5,25 +5,27 @@
         
         <hr class="ml-3">
 </div>
-        <div class=" flex flex-wrap justify-center">
-            <div class="kampanya" *ngFor="let item of camp">
-                <div class="kare flex flex-wrap">
-                    <div class="desktop">
+        <div class=" flex flex-wrap justify-center"   >
+          
+            <div class="kampanya" *ngFor="let item of campaign.camp.data">
+                <div class="kare flex flex-wrap"  >
+                    <div class="desktop" >  
                         <img class="img" [src]="item.src">
-                    </div>
-
-
-                    <div class="details" *ngFor="let text of campaign.camp2.data">
+                        
+                    </div> <h4 class="details">{{item.head}}</h4>
+                        <p class="details">{{item.text}}</p>
+                             
+                    <!-- <div class="details" *ngFor="let text of campaign.camp2.data">
                         <h4>{{text.head}}</h4>
                         <p>{{text.text}}</p>
                         
-                    </div>
+                    </div> -->
                     
                     <div *ngFor="let icon of cmp.camp3.data" >
                         <a class="button" [href]="icon.url"> {{icon.text}}<i [ngClass]="icon.icon"></i>
                         </a></div> 
                 </div>
-            </div>
+           
         </div>
     </div>
 
