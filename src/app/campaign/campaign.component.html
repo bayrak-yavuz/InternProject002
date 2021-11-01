@@ -1,8 +1,10 @@
 <div class="kampanyaa">
     <div class="kutu container">
-        <h3>Kampanyalar</h3>
+        <div class="header" *ngFor="let item of head.header.data">
+         <h3> {{item.title}}</h3>  
+        
         <hr class="ml-3">
-
+</div>
         <div class=" flex flex-wrap justify-center">
             <div class="kampanya" *ngFor="let item of camp">
                 <div class="kare flex flex-wrap">
@@ -11,13 +13,13 @@
                     </div>
 
 
-                    <div class="details" *ngFor="let text of camp2">
+                    <div class="details" *ngFor="let text of campaign.camp2.data">
                         <h4>{{text.head}}</h4>
                         <p>{{text.text}}</p>
                         
                     </div>
                     
-                    <div *ngFor="let icon of camp3" >
+                    <div *ngFor="let icon of cmp.camp3.data" >
                         <a class="button" [href]="icon.url"> {{icon.text}}<i [ngClass]="icon.icon"></i>
                         </a></div> 
                 </div>

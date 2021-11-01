@@ -1,12 +1,12 @@
 <div class=" header">
   <div class="panel   flex ">
     <header>
-      <ul *ngIf="leftSide">
+      <ul  >
         <li *ngFor="let icon of icons">
            <a [href]="icon.url"> <i [ngClass]="icon.icon"></i>{{icon.text}}
            </a></li>
         <div class="right">
-      <li  *ngFor="let icon of iconss"> <a [href]="icon.url"> <i [ngClass]="icon.icon"></i>{{icon.text}}
+      <li  *ngFor="let icon of header.iconss.data"> <a [href]="icon.url"> <i [ngClass]="icon.icon"></i>{{icon.text}}
       </a></li></div></ul>
     </header>
   </div>

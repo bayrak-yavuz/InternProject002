@@ -1,56 +1,27 @@
 <div class="referance w-full  ">
   <div class="  flex container w-full res">
     <div class=" text-center ">
-      <h2> Referanslar</h2>
+      <div class="header" *ngFor="let item of head.header.data">       
+      <h2> {{item.title}}</h2>
       <hr>
-      <p>Hizmet alanlarımız kapsamında tamamladığımız projelerden bazıları!</p>
-      <a href="/referanslar" class="button">
+      </div>
+      <div *ngFor="let item of txt.text.data">
+      <p>{{item.text}}</p>
+      </div>
+      <div *ngFor="let icon of btn.button.data" >
+        <a class="button" [href]="icon.url"> {{icon.text}}<i [ngClass]="icon.icon"></i>
+        </a></div> 
+      <!-- <a href="/referanslar" class="button">
         Tümünü Göster <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -40 448 512" height="10">
           <path fill="currentColor"
             d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z">
           </path>
         </svg>
-      </a>
+      </a> -->
     </div>
     <div class="  resler res">
       <div class="ust">
-        <div class="   p-3" *ngFor="let Image of images">
+        <div class="   p-3" *ngFor="let Image of image.images.data">
           <a [href]="Image.url"> <img  [src]="Image.src"> <p>{{Image.text}}</p>
           </a>
         </div>
-
-        
-<!-- 
-        <div class="   p-3  ">
-          <a target="_blank" href="https://www.akselimoglu.com/">
-            <div class="  border">
-              <img src="/assets/akselimoglu.webp" alt="kampanya">
-            </div>
-          </a>
-          <p>AKSELİM GIDA</p>
-        </div>
-      </div>
-      <div class="alt">
-        <div class="  p-3 ">
-          <a target="_blank" href="https://tuzeavukatlik.com/">
-            <div class="   border">
-              <img src="/assets/tuze.webp" alt="kampanya">
-            </div>
-          </a>
-          <p>Tüze Hukuk Bürosu</p>
-        </div>
-
-        <div class="  p-3">
-          <a target="_blank" href="https://www.erkamkomurcu.com/">
-            <div class="  border">
-              <img src="/assets/erkamkomurcu.webp" alt="kampanya">
-            </div>
-          </a>
-          <p>Dç.Dr. Erkam KÖMÜRCÜ</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</div> -->
