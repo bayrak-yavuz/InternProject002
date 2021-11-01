@@ -57,17 +57,20 @@ export class CampaignComponent implements OnInit {
     },
     {
       language: "tr",
-      camp2: {
-        data: [{
+      camp: {
+        data: [{      
+          src: "/assets/kampanya-3.jpg",
           head: "Kurumsal Web Tasarım",
           text: "Firmanıza özel hazırlanmış bir internet siteniz olsun!",
         },
 
         {
+          src: "/assets/kampanya.jpg",
           head: "Netger Avukat ürününde %20 indirim Fırsatı",
           text: "Ofisini son 1 yıl içinde açan avukatlara özel!",
         },
         {
+          src: "/assets/kampanya-2.jpg",
           head: "Netger Doktor ürününde %20 İndirim Fırsatı",
           text: "Özel muayenehanesini son 1 yıl içinde açan doktorlara özel!",
         }
